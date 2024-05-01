@@ -1,0 +1,3258 @@
+{
+"ubicacion": [
+	{
+		"id" : 1,
+		"ciudad" : "Bilbao",
+		"id_pais" : 60
+	},
+	{
+		"id" : 2,
+		"ciudad" : "Oarai",
+		"id_pais" : 37
+	},
+	{
+		"id" : 3,
+		"ciudad" : "Salt Lake City, UT",
+		"id_pais" : 42
+	},
+	{
+		"id" : 4,
+		"ciudad" : "East Lansing, MI",
+		"id_pais" : 42
+	},
+	{
+		"id" : 5,
+		"ciudad" : "Karlstein am Main",
+		"id_pais" : 11
+	},
+	{
+		"id" : 6,
+		"ciudad" : "Harwell",
+		"id_pais" : 8
+	},
+	{
+		"id" : 7,
+		"ciudad" : "Kiev",
+		"id_pais" : 18
+	},
+	{
+		"id" : 8,
+		"ciudad" : "Tbilisi",
+		"id_pais" : 62
+	},
+	{
+		"id" : 9,
+		"ciudad" : "Petten",
+		"id_pais" : 58
+	},
+	{
+		"id" : 10,
+		"ciudad" : "Daejeon",
+		"id_pais" : 30
+	},
+	{
+		"id" : 11,
+		"ciudad" : "Kawasaki",
+		"id_pais" : 37
+	},
+	{
+		"id" : 12,
+		"ciudad" : "Kharkov",
+		"id_pais" : 18
+	},
+	{
+		"id" : 13,
+		"ciudad" : "Geneva",
+		"id_pais" : 44
+	},
+	{
+		"id" : 14,
+		"ciudad" : "Hawthorne, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 15,
+		"ciudad" : "Yavne",
+		"id_pais" : 31
+	},
+	{
+		"id" : 16,
+		"ciudad" : "San Antonio de los Altos",
+		"id_pais" : 57
+	},
+	{
+		"id" : 17,
+		"ciudad" : "Chalk River",
+		"id_pais" : 12
+	},
+	{
+		"id" : 18,
+		"ciudad" : "",
+		"id_pais" : 8
+	},
+	{
+		"id" : 19,
+		"ciudad" : "Sarov",
+		"id_pais" : 51
+	},
+	{
+		"id" : 20,
+		"ciudad" : "Baghdad",
+		"id_pais" : 41
+	},
+	{
+		"id" : 21,
+		"ciudad" : "Da Lat",
+		"id_pais" : 7
+	},
+	{
+		"id" : 22,
+		"ciudad" : "Ann Arbor, MI",
+		"id_pais" : 42
+	},
+	{
+		"id" : 23,
+		"ciudad" : "Buffalo, NY",
+		"id_pais" : 42
+	},
+	{
+		"id" : 24,
+		"ciudad" : "Glasgow",
+		"id_pais" : 8
+	},
+	{
+		"id" : 25,
+		"ciudad" : "Los Angeles",
+		"id_pais" : 42
+	},
+	{
+		"id" : 26,
+		"ciudad" : "Idaho Falls, ID",
+		"id_pais" : 42
+	},
+	{
+		"id" : 27,
+		"ciudad" : "Amman",
+		"id_pais" : 9
+	},
+	{
+		"id" : 28,
+		"ciudad" : "Richland, WA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 29,
+		"ciudad" : "Serpong",
+		"id_pais" : 1
+	},
+	{
+		"id" : 30,
+		"ciudad" : "Austin, TX",
+		"id_pais" : 42
+	},
+	{
+		"id" : 31,
+		"ciudad" : "Ispra",
+		"id_pais" : 3
+	},
+	{
+		"id" : 32,
+		"ciudad" : "Memphis, TN",
+		"id_pais" : 42
+	},
+	{
+		"id" : 33,
+		"ciudad" : "Munich",
+		"id_pais" : 11
+	},
+	{
+		"id" : 34,
+		"ciudad" : "Mountain View, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 35,
+		"ciudad" : "Kinshasa",
+		"id_pais" : 69
+	},
+	{
+		"id" : 36,
+		"ciudad" : "Fontenay-aux-Roses",
+		"id_pais" : 29
+	},
+	{
+		"id" : 37,
+		"ciudad" : "Braunschweig",
+		"id_pais" : 11
+	},
+	{
+		"id" : 38,
+		"ciudad" : "Kiel",
+		"id_pais" : 11
+	},
+	{
+		"id" : 39,
+		"ciudad" : "New York, NY",
+		"id_pais" : 42
+	},
+	{
+		"id" : 40,
+		"ciudad" : "Hannover",
+		"id_pais" : 11
+	},
+	{
+		"id" : 41,
+		"ciudad" : "San Ramon, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 42,
+		"ciudad" : "West Mifflin, PA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 43,
+		"ciudad" : "Accra",
+		"id_pais" : 34
+	},
+	{
+		"id" : 44,
+		"ciudad" : "Moscow",
+		"id_pais" : 51
+	},
+	{
+		"id" : 45,
+		"ciudad" : "Schagen",
+		"id_pais" : 58
+	},
+	{
+		"id" : 46,
+		"ciudad" : "Tuxedo, NY",
+		"id_pais" : 42
+	},
+	{
+		"id" : 47,
+		"ciudad" : "Tehran",
+		"id_pais" : 25
+	},
+	{
+		"id" : 48,
+		"ciudad" : "Schenectady, NY",
+		"id_pais" : 42
+	},
+	{
+		"id" : 49,
+		"ciudad" : "Morgantown, WV",
+		"id_pais" : 42
+	},
+	{
+		"id" : 50,
+		"ciudad" : "Podolsk",
+		"id_pais" : 51
+	},
+	{
+		"id" : 51,
+		"ciudad" : "Heidelberg",
+		"id_pais" : 11
+	},
+	{
+		"id" : 52,
+		"ciudad" : "Newark, DE",
+		"id_pais" : 42
+	},
+	{
+		"id" : 53,
+		"ciudad" : "State College, PA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 54,
+		"ciudad" : "Lucas Heights, NSW",
+		"id_pais" : 55
+	},
+	{
+		"id" : 55,
+		"ciudad" : "Isfahan",
+		"id_pais" : 25
+	},
+	{
+		"id" : 56,
+		"ciudad" : "Garching bei München",
+		"id_pais" : 11
+	},
+	{
+		"id" : 57,
+		"ciudad" : "Manhattan, KN",
+		"id_pais" : 42
+	},
+	{
+		"id" : 58,
+		"ciudad" : "Geesthacht",
+		"id_pais" : 11
+	},
+	{
+		"id" : 59,
+		"ciudad" : "Sandusky, OH",
+		"id_pais" : 42
+	},
+	{
+		"id" : 60,
+		"ciudad" : "Poughkeepsie, NY",
+		"id_pais" : 42
+	},
+	{
+		"id" : 61,
+		"ciudad" : "Mount Vernon, VA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 62,
+		"ciudad" : "Zarechniy",
+		"id_pais" : 51
+	},
+	{
+		"id" : 63,
+		"ciudad" : "Sofia",
+		"id_pais" : 61
+	},
+	{
+		"id" : 64,
+		"ciudad" : "Aberdeen, MD",
+		"id_pais" : 42
+	},
+	{
+		"id" : 65,
+		"ciudad" : "Zaria",
+		"id_pais" : 43
+	},
+	{
+		"id" : 66,
+		"ciudad" : "Starkville, MS",
+		"id_pais" : 42
+	},
+	{
+		"id" : 67,
+		"ciudad" : "Seascale",
+		"id_pais" : 8
+	},
+	{
+		"id" : 68,
+		"ciudad" : "College Park, MD",
+		"id_pais" : 42
+	},
+	{
+		"id" : 69,
+		"ciudad" : "Salaspils",
+		"id_pais" : 20
+	},
+	{
+		"id" : 70,
+		"ciudad" : "Bangkok",
+		"id_pais" : 70
+	},
+	{
+		"id" : 71,
+		"ciudad" : "Saint-Petersburg",
+		"id_pais" : 51
+	},
+	{
+		"id" : 72,
+		"ciudad" : "Garching \/ Munich",
+		"id_pais" : 11
+	},
+	{
+		"id" : 73,
+		"ciudad" : "Rio De Janeiro",
+		"id_pais" : 53
+	},
+	{
+		"id" : 74,
+		"ciudad" : "Tucson, AZ",
+		"id_pais" : 42
+	},
+	{
+		"id" : 75,
+		"ciudad" : "Lima",
+		"id_pais" : 33
+	},
+	{
+		"id" : 76,
+		"ciudad" : "Palermo",
+		"id_pais" : 3
+	},
+	{
+		"id" : 77,
+		"ciudad" : "Gaithersburg, Maryland",
+		"id_pais" : 42
+	},
+	{
+		"id" : 78,
+		"ciudad" : "Urbana, IL",
+		"id_pais" : 42
+	},
+	{
+		"id" : 79,
+		"ciudad" : "",
+		"id_pais" : 46
+	},
+	{
+		"id" : 80,
+		"ciudad" : "London",
+		"id_pais" : 8
+	},
+	{
+		"id" : 81,
+		"ciudad" : "Bologna",
+		"id_pais" : 3
+	},
+	{
+		"id" : 82,
+		"ciudad" : "Dimitrovgrad",
+		"id_pais" : 51
+	},
+	{
+		"id" : 83,
+		"ciudad" : "Obninsk",
+		"id_pais" : 51
+	},
+	{
+		"id" : 84,
+		"ciudad" : "Vinca",
+		"id_pais" : 56
+	},
+	{
+		"id" : 85,
+		"ciudad" : "Nyköping",
+		"id_pais" : 6
+	},
+	{
+		"id" : 86,
+		"ciudad" : "Dushanbe",
+		"id_pais" : 45
+	},
+	{
+		"id" : 87,
+		"ciudad" : "Berkeley, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 88,
+		"ciudad" : "Hamburg",
+		"id_pais" : 11
+	},
+	{
+		"id" : 89,
+		"ciudad" : "Palo Alto, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 90,
+		"ciudad" : "Atlanta, GA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 91,
+		"ciudad" : "Prague",
+		"id_pais" : 5
+	},
+	{
+		"id" : 92,
+		"ciudad" : "Chicago, IL",
+		"id_pais" : 42
+	},
+	{
+		"id" : 93,
+		"ciudad" : "Pinawa, MB",
+		"id_pais" : 12
+	},
+	{
+		"id" : 94,
+		"ciudad" : "Mol",
+		"id_pais" : 64
+	},
+	{
+		"id" : 95,
+		"ciudad" : "Bremen",
+		"id_pais" : 11
+	},
+	{
+		"id" : 96,
+		"ciudad" : "Rolla, MO",
+		"id_pais" : 42
+	},
+	{
+		"id" : 97,
+		"ciudad" : "Charleston, SC",
+		"id_pais" : 42
+	},
+	{
+		"id" : 98,
+		"ciudad" : "Lemont, IL",
+		"id_pais" : 42
+	},
+	{
+		"id" : 99,
+		"ciudad" : "San Luis Obispo, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 100,
+		"ciudad" : "Algiers",
+		"id_pais" : 28
+	},
+	{
+		"id" : 101,
+		"ciudad" : "Baton Rouge, LA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 102,
+		"ciudad" : "Karlsruhe",
+		"id_pais" : 11
+	},
+	{
+		"id" : 103,
+		"ciudad" : "Zurich",
+		"id_pais" : 44
+	},
+	{
+		"id" : 104,
+		"ciudad" : "Stockholm",
+		"id_pais" : 6
+	},
+	{
+		"id" : 105,
+		"ciudad" : "Dresden \/ Rossendorf",
+		"id_pais" : 11
+	},
+	{
+		"id" : 106,
+		"ciudad" : "Kajang",
+		"id_pais" : 35
+	},
+	{
+		"id" : 107,
+		"ciudad" : "Djelfa",
+		"id_pais" : 28
+	},
+	{
+		"id" : 108,
+		"ciudad" : "Zion, IL",
+		"id_pais" : 42
+	},
+	{
+		"id" : 109,
+		"ciudad" : "Buenos Aires",
+		"id_pais" : 19
+	},
+	{
+		"id" : 110,
+		"ciudad" : "Madrid",
+		"id_pais" : 60
+	},
+	{
+		"id" : 111,
+		"ciudad" : "Gatchina",
+		"id_pais" : 51
+	},
+	{
+		"id" : 112,
+		"ciudad" : "Budapest",
+		"id_pais" : 46
+	},
+	{
+		"id" : 113,
+		"ciudad" : "Windsor, CT",
+		"id_pais" : 42
+	},
+	{
+		"id" : 114,
+		"ciudad" : "Pullman, WA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 115,
+		"ciudad" : "Pretoria",
+		"id_pais" : 32
+	},
+	{
+		"id" : 116,
+		"ciudad" : "Saitama",
+		"id_pais" : 37
+	},
+	{
+		"id" : 117,
+		"ciudad" : "Thessaloniki",
+		"id_pais" : 24
+	},
+	{
+		"id" : 118,
+		"ciudad" : "Santa Barbara, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 119,
+		"ciudad" : "Shenzhen",
+		"id_pais" : 47
+	},
+	{
+		"id" : 120,
+		"ciudad" : "Berkeley",
+		"id_pais" : 8
+	},
+	{
+		"id" : 121,
+		"ciudad" : "Osaka",
+		"id_pais" : 37
+	},
+	{
+		"id" : 122,
+		"ciudad" : "Stuttgart",
+		"id_pais" : 11
+	},
+	{
+		"id" : 123,
+		"ciudad" : "Arnhem",
+		"id_pais" : 58
+	},
+	{
+		"id" : 124,
+		"ciudad" : "Seattle",
+		"id_pais" : 42
+	},
+	{
+		"id" : 125,
+		"ciudad" : "Delft",
+		"id_pais" : 58
+	},
+	{
+		"id" : 126,
+		"ciudad" : "Madison, WI",
+		"id_pais" : 42
+	},
+	{
+		"id" : 127,
+		"ciudad" : "Berlin",
+		"id_pais" : 11
+	},
+	{
+		"id" : 128,
+		"ciudad" : "Santiago",
+		"id_pais" : 27
+	},
+	{
+		"id" : 129,
+		"ciudad" : "San Diego",
+		"id_pais" : 42
+	},
+	{
+		"id" : 130,
+		"ciudad" : "Rome",
+		"id_pais" : 3
+	},
+	{
+		"id" : 131,
+		"ciudad" : "Abuja",
+		"id_pais" : 43
+	},
+	{
+		"id" : 132,
+		"ciudad" : "Tomsk",
+		"id_pais" : 51
+	},
+	{
+		"id" : 133,
+		"ciudad" : "Damascus",
+		"id_pais" : 10
+	},
+	{
+		"id" : 134,
+		"ciudad" : "Sacramento, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 135,
+		"ciudad" : "Silver Spring, MD",
+		"id_pais" : 42
+	},
+	{
+		"id" : 136,
+		"ciudad" : "Laramie, WY",
+		"id_pais" : 42
+	},
+	{
+		"id" : 137,
+		"ciudad" : "Livermore, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 138,
+		"ciudad" : "Kjeller",
+		"id_pais" : 48
+	},
+	{
+		"id" : 139,
+		"ciudad" : "Eindhoven",
+		"id_pais" : 58
+	},
+	{
+		"id" : 140,
+		"ciudad" : "Tashkent",
+		"id_pais" : 13
+	},
+	{
+		"id" : 141,
+		"ciudad" : "Frankfurt am Main",
+		"id_pais" : 11
+	},
+	{
+		"id" : 142,
+		"ciudad" : "Jülich",
+		"id_pais" : 11
+	},
+	{
+		"id" : 143,
+		"ciudad" : "Saclay",
+		"id_pais" : 29
+	},
+	{
+		"id" : 144,
+		"ciudad" : "Hamilton, ON",
+		"id_pais" : 12
+	},
+	{
+		"id" : 145,
+		"ciudad" : "Electrostal",
+		"id_pais" : 51
+	},
+	{
+		"id" : 146,
+		"ciudad" : "La Marquesa Ocoyoacac",
+		"id_pais" : 67
+	},
+	{
+		"id" : 147,
+		"ciudad" : "Narragansett, RI",
+		"id_pais" : 42
+	},
+	{
+		"id" : 148,
+		"ciudad" : "",
+		"id_pais" : 37
+	},
+	{
+		"id" : 149,
+		"ciudad" : "Zacatecas",
+		"id_pais" : 67
+	},
+	{
+		"id" : 150,
+		"ciudad" : "Ames, IA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 151,
+		"ciudad" : "Iperó",
+		"id_pais" : 53
+	},
+	{
+		"id" : 152,
+		"ciudad" : "Santa Susana, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 153,
+		"ciudad" : "Washington, D.C.",
+		"id_pais" : 42
+	},
+	{
+		"id" : 154,
+		"ciudad" : "Montréal",
+		"id_pais" : 12
+	},
+	{
+		"id" : 155,
+		"ciudad" : "Pavia",
+		"id_pais" : 3
+	},
+	{
+		"id" : 156,
+		"ciudad" : "Nyongbyon",
+		"id_pais" : 21
+	},
+	{
+		"id" : 157,
+		"ciudad" : "Sevastopol",
+		"id_pais" : 18
+	},
+	{
+		"id" : 158,
+		"ciudad" : "Ulm",
+		"id_pais" : 11
+	},
+	{
+		"id" : 159,
+		"ciudad" : "Nizhny Novgorod",
+		"id_pais" : 51
+	},
+	{
+		"id" : 160,
+		"ciudad" : "Basel",
+		"id_pais" : 44
+	},
+	{
+		"id" : 161,
+		"ciudad" : "Tokyo",
+		"id_pais" : 37
+	},
+	{
+		"id" : 162,
+		"ciudad" : "Geesthact",
+		"id_pais" : 11
+	},
+	{
+		"id" : 163,
+		"ciudad" : "Rež",
+		"id_pais" : 5
+	},
+	{
+		"id" : 164,
+		"ciudad" : "Pleasanton, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 165,
+		"ciudad" : "Bandung",
+		"id_pais" : 1
+	},
+	{
+		"id" : 166,
+		"ciudad" : "Tokai-mura",
+		"id_pais" : 37
+	},
+	{
+		"id" : 167,
+		"ciudad" : "Hsinchu City",
+		"id_pais" : 65
+	},
+	{
+		"id" : 168,
+		"ciudad" : "Los Alamos, NM",
+		"id_pais" : 42
+	},
+	{
+		"id" : 169,
+		"ciudad" : "Oak Ridge, TN",
+		"id_pais" : 42
+	},
+	{
+		"id" : 170,
+		"ciudad" : "Portland, OR",
+		"id_pais" : 42
+	},
+	{
+		"id" : 171,
+		"ciudad" : "Mainz",
+		"id_pais" : 11
+	},
+	{
+		"id" : 172,
+		"ciudad" : "Riyadh",
+		"id_pais" : 17
+	},
+	{
+		"id" : 173,
+		"ciudad" : "Bagnols-sur-Cèze",
+		"id_pais" : 29
+	},
+	{
+		"id" : 174,
+		"ciudad" : "Yogyakarta",
+		"id_pais" : 1
+	},
+	{
+		"id" : 175,
+		"ciudad" : "College Station, TX",
+		"id_pais" : 42
+	},
+	{
+		"id" : 176,
+		"ciudad" : "Mayagüez, Puerto Rico",
+		"id_pais" : 42
+	},
+	{
+		"id" : 177,
+		"ciudad" : "Busan",
+		"id_pais" : 30
+	},
+	{
+		"id" : 178,
+		"ciudad" : "New Stanton, PA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 179,
+		"ciudad" : "Milan",
+		"id_pais" : 3
+	},
+	{
+		"id" : 180,
+		"ciudad" : "Dijon",
+		"id_pais" : 29
+	},
+	{
+		"id" : 181,
+		"ciudad" : "Mexico City",
+		"id_pais" : 67
+	},
+	{
+		"id" : 182,
+		"ciudad" : "West Fork, AR",
+		"id_pais" : 42
+	},
+	{
+		"id" : 183,
+		"ciudad" : "Middletown, CT",
+		"id_pais" : 42
+	},
+	{
+		"id" : 184,
+		"ciudad" : "Tuskegee, AL",
+		"id_pais" : 42
+	},
+	{
+		"id" : 185,
+		"ciudad" : "Tokai",
+		"id_pais" : 37
+	},
+	{
+		"id" : 186,
+		"ciudad" : "Graz",
+		"id_pais" : 54
+	},
+	{
+		"id" : 187,
+		"ciudad" : "Dorchester",
+		"id_pais" : 8
+	},
+	{
+		"id" : 188,
+		"ciudad" : "Mumbai",
+		"id_pais" : 26
+	},
+	{
+		"id" : 189,
+		"ciudad" : "Omaha, NE",
+		"id_pais" : 42
+	},
+	{
+		"id" : 190,
+		"ciudad" : "Padua",
+		"id_pais" : 3
+	},
+	{
+		"id" : 191,
+		"ciudad" : "Milwaukee, WI",
+		"id_pais" : 42
+	},
+	{
+		"id" : 192,
+		"ciudad" : "Roskilde",
+		"id_pais" : 38
+	},
+	{
+		"id" : 193,
+		"ciudad" : "West Lafayette, IN",
+		"id_pais" : 42
+	},
+	{
+		"id" : 194,
+		"ciudad" : "Sydney",
+		"id_pais" : 55
+	},
+	{
+		"id" : 195,
+		"ciudad" : "Bogota",
+		"id_pais" : 16
+	},
+	{
+		"id" : 196,
+		"ciudad" : "Aix-en-Provence",
+		"id_pais" : 29
+	},
+	{
+		"id" : 197,
+		"ciudad" : "Upton, NY",
+		"id_pais" : 42
+	},
+	{
+		"id" : 198,
+		"ciudad" : "Lawrence, KS",
+		"id_pais" : 42
+	},
+	{
+		"id" : 199,
+		"ciudad" : "Saskatoon",
+		"id_pais" : 12
+	},
+	{
+		"id" : 200,
+		"ciudad" : "Aiken, SC",
+		"id_pais" : 42
+	},
+	{
+		"id" : 201,
+		"ciudad" : "Baltimore",
+		"id_pais" : 42
+	},
+	{
+		"id" : 202,
+		"ciudad" : "Cairo",
+		"id_pais" : 23
+	},
+	{
+		"id" : 203,
+		"ciudad" : "Pisa",
+		"id_pais" : 3
+	},
+	{
+		"id" : 204,
+		"ciudad" : "Helsinki",
+		"id_pais" : 14
+	},
+	{
+		"id" : 205,
+		"ciudad" : "Carhaix-Plouguer",
+		"id_pais" : 29
+	},
+	{
+		"id" : 206,
+		"ciudad" : "Würenlingen",
+		"id_pais" : 44
+	},
+	{
+		"id" : 207,
+		"ciudad" : "Córdoba",
+		"id_pais" : 19
+	},
+	{
+		"id" : 208,
+		"ciudad" : "San Diego, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 209,
+		"ciudad" : "Aachen",
+		"id_pais" : 11
+	},
+	{
+		"id" : 210,
+		"ciudad" : "Fort Worth, TX",
+		"id_pais" : 42
+	},
+	{
+		"id" : 211,
+		"ciudad" : "Snezhinsk",
+		"id_pais" : 51
+	},
+	{
+		"id" : 212,
+		"ciudad" : "Norman, OK",
+		"id_pais" : 42
+	},
+	{
+		"id" : 213,
+		"ciudad" : "Pocatello, ID",
+		"id_pais" : 42
+	},
+	{
+		"id" : 214,
+		"ciudad" : "Thurso",
+		"id_pais" : 8
+	},
+	{
+		"id" : 215,
+		"ciudad" : "Sao Paulo",
+		"id_pais" : 53
+	},
+	{
+		"id" : 216,
+		"ciudad" : "Norilsk",
+		"id_pais" : 51
+	},
+	{
+		"id" : 217,
+		"ciudad" : "Quezon City",
+		"id_pais" : 40
+	},
+	{
+		"id" : 218,
+		"ciudad" : "Athens",
+		"id_pais" : 24
+	},
+	{
+		"id" : 219,
+		"ciudad" : "Houston, TX",
+		"id_pais" : 42
+	},
+	{
+		"id" : 220,
+		"ciudad" : "Mianyang",
+		"id_pais" : 47
+	},
+	{
+		"id" : 221,
+		"ciudad" : "Bethesda, MD",
+		"id_pais" : 42
+	},
+	{
+		"id" : 222,
+		"ciudad" : "Gainesville, FL",
+		"id_pais" : 42
+	},
+	{
+		"id" : 223,
+		"ciudad" : "Saint-Paul-les-Durance",
+		"id_pais" : 29
+	},
+	{
+		"id" : 224,
+		"ciudad" : "Ballston Spa, NY",
+		"id_pais" : 42
+	},
+	{
+		"id" : 225,
+		"ciudad" : "Idaho Falls",
+		"id_pais" : 42
+	},
+	{
+		"id" : 226,
+		"ciudad" : "Watertown, MA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 227,
+		"ciudad" : "Dalat",
+		"id_pais" : 7
+	},
+	{
+		"id" : 228,
+		"ciudad" : "Halden",
+		"id_pais" : 48
+	},
+	{
+		"id" : 229,
+		"ciudad" : "Chalk River, ON",
+		"id_pais" : 12
+	},
+	{
+		"id" : 230,
+		"ciudad" : "Kalpakkam",
+		"id_pais" : 26
+	},
+	{
+		"id" : 231,
+		"ciudad" : "Zittau",
+		"id_pais" : 11
+	},
+	{
+		"id" : 232,
+		"ciudad" : "Marcoule",
+		"id_pais" : 29
+	},
+	{
+		"id" : 233,
+		"ciudad" : "Ottawa",
+		"id_pais" : 12
+	},
+	{
+		"id" : 234,
+		"ciudad" : "Cleveland, OH",
+		"id_pais" : 42
+	},
+	{
+		"id" : 235,
+		"ciudad" : "Ljubljana",
+		"id_pais" : 22
+	},
+	{
+		"id" : 236,
+		"ciudad" : "Lowell, MA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 237,
+		"ciudad" : "Yokosuka",
+		"id_pais" : 37
+	},
+	{
+		"id" : 238,
+		"ciudad" : "Edmonton",
+		"id_pais" : 12
+	},
+	{
+		"id" : 239,
+		"ciudad" : "Espoo",
+		"id_pais" : 14
+	},
+	{
+		"id" : 240,
+		"ciudad" : "Strasbourg",
+		"id_pais" : 29
+	},
+	{
+		"id" : 241,
+		"ciudad" : "Billingham",
+		"id_pais" : 8
+	},
+	{
+		"id" : 242,
+		"ciudad" : "Las Cruces, NM",
+		"id_pais" : 42
+	},
+	{
+		"id" : 243,
+		"ciudad" : "Didcot",
+		"id_pais" : 8
+	},
+	{
+		"id" : 244,
+		"ciudad" : "Saint-Paul-lès-Durance",
+		"id_pais" : 29
+	},
+	{
+		"id" : 245,
+		"ciudad" : "Cadarache",
+		"id_pais" : 29
+	},
+	{
+		"id" : 246,
+		"ciudad" : "Islamabad",
+		"id_pais" : 50
+	},
+	{
+		"id" : 247,
+		"ciudad" : "Midland, MI",
+		"id_pais" : 42
+	},
+	{
+		"id" : 248,
+		"ciudad" : "Columbus, OH",
+		"id_pais" : 42
+	},
+	{
+		"id" : 249,
+		"ciudad" : "Golden, CO",
+		"id_pais" : 42
+	},
+	{
+		"id" : 250,
+		"ciudad" : "Ezeiza",
+		"id_pais" : 19
+	},
+	{
+		"id" : 251,
+		"ciudad" : "Mona",
+		"id_pais" : 39
+	},
+	{
+		"id" : 252,
+		"ciudad" : "Belo Horizonte",
+		"id_pais" : 53
+	},
+	{
+		"id" : 253,
+		"ciudad" : "Bucharest",
+		"id_pais" : 52
+	},
+	{
+		"id" : 254,
+		"ciudad" : "Worcester, MA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 255,
+		"ciudad" : "Belgrade",
+		"id_pais" : 56
+	},
+	{
+		"id" : 256,
+		"ciudad" : "Montevideo",
+		"id_pais" : 4
+	},
+	{
+		"id" : 257,
+		"ciudad" : "Nakorn Ratchasima",
+		"id_pais" : 70
+	},
+	{
+		"id" : 258,
+		"ciudad" : "Dubna",
+		"id_pais" : 51
+	},
+	{
+		"id" : 259,
+		"ciudad" : "Boston",
+		"id_pais" : 42
+	},
+	{
+		"id" : 260,
+		"ciudad" : "Montréal, QC",
+		"id_pais" : 12
+	},
+	{
+		"id" : 261,
+		"ciudad" : "Plainsboro, NJ",
+		"id_pais" : 42
+	},
+	{
+		"id" : 262,
+		"ciudad" : "Darmstadt",
+		"id_pais" : 11
+	},
+	{
+		"id" : 263,
+		"ciudad" : "Las Vegas, NV",
+		"id_pais" : 42
+	},
+	{
+		"id" : 264,
+		"ciudad" : "Otwock",
+		"id_pais" : 68
+	},
+	{
+		"id" : 265,
+		"ciudad" : "Villigen",
+		"id_pais" : 44
+	},
+	{
+		"id" : 266,
+		"ciudad" : "Blacksburg, VA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 267,
+		"ciudad" : "Chengdu",
+		"id_pais" : 47
+	},
+	{
+		"id" : 268,
+		"ciudad" : "Pitesti",
+		"id_pais" : 52
+	},
+	{
+		"id" : 269,
+		"ciudad" : "Dresden",
+		"id_pais" : 11
+	},
+	{
+		"id" : 270,
+		"ciudad" : "Dawsonville, GA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 271,
+		"ciudad" : "Dresden\/Rossendorf",
+		"id_pais" : 11
+	},
+	{
+		"id" : 272,
+		"ciudad" : "Columbia, MO",
+		"id_pais" : 42
+	},
+	{
+		"id" : 273,
+		"ciudad" : "Charlottesville, VA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 274,
+		"ciudad" : "Plzen",
+		"id_pais" : 5
+	},
+	{
+		"id" : 275,
+		"ciudad" : "Istanbul",
+		"id_pais" : 66
+	},
+	{
+		"id" : 276,
+		"ciudad" : "Beijing",
+		"id_pais" : 47
+	},
+	{
+		"id" : 277,
+		"ciudad" : "Rosario",
+		"id_pais" : 19
+	},
+	{
+		"id" : 278,
+		"ciudad" : "Dhaka",
+		"id_pais" : 2
+	},
+	{
+		"id" : 279,
+		"ciudad" : "Tokai Mura",
+		"id_pais" : 37
+	},
+	{
+		"id" : 280,
+		"ciudad" : "Taoyuan City",
+		"id_pais" : 65
+	},
+	{
+		"id" : 281,
+		"ciudad" : "Saxton, PA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 282,
+		"ciudad" : "Minsk",
+		"id_pais" : 49
+	},
+	{
+		"id" : 283,
+		"ciudad" : "St. Petersburg",
+		"id_pais" : 51
+	},
+	{
+		"id" : 284,
+		"ciudad" : "Albuquerque, NM",
+		"id_pais" : 42
+	},
+	{
+		"id" : 285,
+		"ciudad" : "Furtwangen im Schwarzwald",
+		"id_pais" : 11
+	},
+	{
+		"id" : 286,
+		"ciudad" : "Ithaca, NY",
+		"id_pais" : 42
+	},
+	{
+		"id" : 287,
+		"ciudad" : "Corvallis, OR",
+		"id_pais" : 42
+	},
+	{
+		"id" : 288,
+		"ciudad" : "Vienna",
+		"id_pais" : 54
+	},
+	{
+		"id" : 289,
+		"ciudad" : "Seoul",
+		"id_pais" : 30
+	},
+	{
+		"id" : 290,
+		"ciudad" : "Denver",
+		"id_pais" : 42
+	},
+	{
+		"id" : 291,
+		"ciudad" : "Clearfield, PA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 292,
+		"ciudad" : "Gif-sur-Yvette",
+		"id_pais" : 29
+	},
+	{
+		"id" : 293,
+		"ciudad" : "Aldermaston",
+		"id_pais" : 8
+	},
+	{
+		"id" : 294,
+		"ciudad" : "Kingston, ON",
+		"id_pais" : 12
+	},
+	{
+		"id" : 295,
+		"ciudad" : "Visakhapatnam",
+		"id_pais" : 26
+	},
+	{
+		"id" : 296,
+		"ciudad" : "Warrington",
+		"id_pais" : 8
+	},
+	{
+		"id" : 297,
+		"ciudad" : "Simi Valley, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 298,
+		"ciudad" : "Husinec-Rez",
+		"id_pais" : 5
+	},
+	{
+		"id" : 299,
+		"ciudad" : "Wageningen",
+		"id_pais" : 58
+	},
+	{
+		"id" : 300,
+		"ciudad" : "Elektrostal",
+		"id_pais" : 51
+	},
+	{
+		"id" : 301,
+		"ciudad" : "Tokai-Mura",
+		"id_pais" : 37
+	},
+	{
+		"id" : 302,
+		"ciudad" : "Grenoble",
+		"id_pais" : 29
+	},
+	{
+		"id" : 303,
+		"ciudad" : "Halifax",
+		"id_pais" : 12
+	},
+	{
+		"id" : 304,
+		"ciudad" : "Irvine, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 305,
+		"ciudad" : "Yongin",
+		"id_pais" : 30
+	},
+	{
+		"id" : 306,
+		"ciudad" : "Lynchburg, VA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 307,
+		"ciudad" : "San Carlos de Bariloche",
+		"id_pais" : 19
+	},
+	{
+		"id" : 308,
+		"ciudad" : "Ghent",
+		"id_pais" : 64
+	},
+	{
+		"id" : 309,
+		"ciudad" : "Toronto, ON",
+		"id_pais" : 12
+	},
+	{
+		"id" : 310,
+		"ciudad" : "Kurchatov",
+		"id_pais" : 36
+	},
+	{
+		"id" : 311,
+		"ciudad" : "Saluggia",
+		"id_pais" : 3
+	},
+	{
+		"id" : 312,
+		"ciudad" : "Rabat",
+		"id_pais" : 63
+	},
+	{
+		"id" : 313,
+		"ciudad" : "Lausanne",
+		"id_pais" : 44
+	},
+	{
+		"id" : 314,
+		"ciudad" : "Shanghai",
+		"id_pais" : 47
+	},
+	{
+		"id" : 315,
+		"ciudad" : "Derby",
+		"id_pais" : 8
+	},
+	{
+		"id" : 316,
+		"ciudad" : "Chelyabinsk",
+		"id_pais" : 51
+	},
+	{
+		"id" : 317,
+		"ciudad" : "Washington, DC",
+		"id_pais" : 42
+	},
+	{
+		"id" : 318,
+		"ciudad" : "Raleigh",
+		"id_pais" : 42
+	},
+	{
+		"id" : 319,
+		"ciudad" : "Barcelona",
+		"id_pais" : 60
+	},
+	{
+		"id" : 320,
+		"ciudad" : "Lisbon",
+		"id_pais" : 15
+	},
+	{
+		"id" : 321,
+		"ciudad" : "Provo, UT",
+		"id_pais" : 42
+	},
+	{
+		"id" : 322,
+		"ciudad" : "Tajoura",
+		"id_pais" : 59
+	},
+	{
+		"id" : 323,
+		"ciudad" : "Jinan",
+		"id_pais" : 47
+	},
+	{
+		"id" : 324,
+		"ciudad" : "Almaty",
+		"id_pais" : 36
+	},
+	{
+		"id" : 325,
+		"ciudad" : "Bilbao",
+		"id_pais" : 60
+	},
+	{
+		"id" : 326,
+		"ciudad" : "Oarai",
+		"id_pais" : 37
+	},
+	{
+		"id" : 327,
+		"ciudad" : "Salt Lake City, UT",
+		"id_pais" : 42
+	},
+	{
+		"id" : 328,
+		"ciudad" : "East Lansing, MI",
+		"id_pais" : 42
+	},
+	{
+		"id" : 329,
+		"ciudad" : "Karlstein am Main",
+		"id_pais" : 11
+	},
+	{
+		"id" : 330,
+		"ciudad" : "Harwell",
+		"id_pais" : 8
+	},
+	{
+		"id" : 331,
+		"ciudad" : "Kiev",
+		"id_pais" : 18
+	},
+	{
+		"id" : 332,
+		"ciudad" : "Tbilisi",
+		"id_pais" : 62
+	},
+	{
+		"id" : 333,
+		"ciudad" : "Petten",
+		"id_pais" : 58
+	},
+	{
+		"id" : 334,
+		"ciudad" : "Daejeon",
+		"id_pais" : 30
+	},
+	{
+		"id" : 335,
+		"ciudad" : "Kawasaki",
+		"id_pais" : 37
+	},
+	{
+		"id" : 336,
+		"ciudad" : "Kharkov",
+		"id_pais" : 18
+	},
+	{
+		"id" : 337,
+		"ciudad" : "Geneva",
+		"id_pais" : 44
+	},
+	{
+		"id" : 338,
+		"ciudad" : "Hawthorne, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 339,
+		"ciudad" : "Yavne",
+		"id_pais" : 31
+	},
+	{
+		"id" : 340,
+		"ciudad" : "San Antonio de los Altos",
+		"id_pais" : 57
+	},
+	{
+		"id" : 341,
+		"ciudad" : "Chalk River",
+		"id_pais" : 12
+	},
+	{
+		"id" : 342,
+		"ciudad" : "",
+		"id_pais" : 8
+	},
+	{
+		"id" : 343,
+		"ciudad" : "Sarov",
+		"id_pais" : 51
+	},
+	{
+		"id" : 344,
+		"ciudad" : "Baghdad",
+		"id_pais" : 41
+	},
+	{
+		"id" : 345,
+		"ciudad" : "Da Lat",
+		"id_pais" : 7
+	},
+	{
+		"id" : 346,
+		"ciudad" : "Ann Arbor, MI",
+		"id_pais" : 42
+	},
+	{
+		"id" : 347,
+		"ciudad" : "Buffalo, NY",
+		"id_pais" : 42
+	},
+	{
+		"id" : 348,
+		"ciudad" : "Glasgow",
+		"id_pais" : 8
+	},
+	{
+		"id" : 349,
+		"ciudad" : "Los Angeles",
+		"id_pais" : 42
+	},
+	{
+		"id" : 350,
+		"ciudad" : "Idaho Falls, ID",
+		"id_pais" : 42
+	},
+	{
+		"id" : 351,
+		"ciudad" : "Amman",
+		"id_pais" : 9
+	},
+	{
+		"id" : 352,
+		"ciudad" : "Richland, WA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 353,
+		"ciudad" : "Serpong",
+		"id_pais" : 1
+	},
+	{
+		"id" : 354,
+		"ciudad" : "Austin, TX",
+		"id_pais" : 42
+	},
+	{
+		"id" : 355,
+		"ciudad" : "Ispra",
+		"id_pais" : 3
+	},
+	{
+		"id" : 356,
+		"ciudad" : "Memphis, TN",
+		"id_pais" : 42
+	},
+	{
+		"id" : 357,
+		"ciudad" : "Munich",
+		"id_pais" : 11
+	},
+	{
+		"id" : 358,
+		"ciudad" : "Mountain View, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 359,
+		"ciudad" : "Kinshasa",
+		"id_pais" : 69
+	},
+	{
+		"id" : 360,
+		"ciudad" : "Fontenay-aux-Roses",
+		"id_pais" : 29
+	},
+	{
+		"id" : 361,
+		"ciudad" : "Braunschweig",
+		"id_pais" : 11
+	},
+	{
+		"id" : 362,
+		"ciudad" : "Kiel",
+		"id_pais" : 11
+	},
+	{
+		"id" : 363,
+		"ciudad" : "New York, NY",
+		"id_pais" : 42
+	},
+	{
+		"id" : 364,
+		"ciudad" : "Hannover",
+		"id_pais" : 11
+	},
+	{
+		"id" : 365,
+		"ciudad" : "San Ramon, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 366,
+		"ciudad" : "West Mifflin, PA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 367,
+		"ciudad" : "Accra",
+		"id_pais" : 34
+	},
+	{
+		"id" : 368,
+		"ciudad" : "Moscow",
+		"id_pais" : 51
+	},
+	{
+		"id" : 369,
+		"ciudad" : "Schagen",
+		"id_pais" : 58
+	},
+	{
+		"id" : 370,
+		"ciudad" : "Tuxedo, NY",
+		"id_pais" : 42
+	},
+	{
+		"id" : 371,
+		"ciudad" : "Tehran",
+		"id_pais" : 25
+	},
+	{
+		"id" : 372,
+		"ciudad" : "Schenectady, NY",
+		"id_pais" : 42
+	},
+	{
+		"id" : 373,
+		"ciudad" : "Morgantown, WV",
+		"id_pais" : 42
+	},
+	{
+		"id" : 374,
+		"ciudad" : "Podolsk",
+		"id_pais" : 51
+	},
+	{
+		"id" : 375,
+		"ciudad" : "Heidelberg",
+		"id_pais" : 11
+	},
+	{
+		"id" : 376,
+		"ciudad" : "Newark, DE",
+		"id_pais" : 42
+	},
+	{
+		"id" : 377,
+		"ciudad" : "State College, PA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 378,
+		"ciudad" : "Lucas Heights, NSW",
+		"id_pais" : 55
+	},
+	{
+		"id" : 379,
+		"ciudad" : "Isfahan",
+		"id_pais" : 25
+	},
+	{
+		"id" : 380,
+		"ciudad" : "Garching bei München",
+		"id_pais" : 11
+	},
+	{
+		"id" : 381,
+		"ciudad" : "Manhattan, KN",
+		"id_pais" : 42
+	},
+	{
+		"id" : 382,
+		"ciudad" : "Geesthacht",
+		"id_pais" : 11
+	},
+	{
+		"id" : 383,
+		"ciudad" : "Sandusky, OH",
+		"id_pais" : 42
+	},
+	{
+		"id" : 384,
+		"ciudad" : "Poughkeepsie, NY",
+		"id_pais" : 42
+	},
+	{
+		"id" : 385,
+		"ciudad" : "Mount Vernon, VA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 386,
+		"ciudad" : "Zarechniy",
+		"id_pais" : 51
+	},
+	{
+		"id" : 387,
+		"ciudad" : "Sofia",
+		"id_pais" : 61
+	},
+	{
+		"id" : 388,
+		"ciudad" : "Aberdeen, MD",
+		"id_pais" : 42
+	},
+	{
+		"id" : 389,
+		"ciudad" : "Zaria",
+		"id_pais" : 43
+	},
+	{
+		"id" : 390,
+		"ciudad" : "Starkville, MS",
+		"id_pais" : 42
+	},
+	{
+		"id" : 391,
+		"ciudad" : "Seascale",
+		"id_pais" : 8
+	},
+	{
+		"id" : 392,
+		"ciudad" : "College Park, MD",
+		"id_pais" : 42
+	},
+	{
+		"id" : 393,
+		"ciudad" : "Salaspils",
+		"id_pais" : 20
+	},
+	{
+		"id" : 394,
+		"ciudad" : "Bangkok",
+		"id_pais" : 70
+	},
+	{
+		"id" : 395,
+		"ciudad" : "Saint-Petersburg",
+		"id_pais" : 51
+	},
+	{
+		"id" : 396,
+		"ciudad" : "Garching \/ Munich",
+		"id_pais" : 11
+	},
+	{
+		"id" : 397,
+		"ciudad" : "Rio De Janeiro",
+		"id_pais" : 53
+	},
+	{
+		"id" : 398,
+		"ciudad" : "Tucson, AZ",
+		"id_pais" : 42
+	},
+	{
+		"id" : 399,
+		"ciudad" : "Lima",
+		"id_pais" : 33
+	},
+	{
+		"id" : 400,
+		"ciudad" : "Palermo",
+		"id_pais" : 3
+	},
+	{
+		"id" : 401,
+		"ciudad" : "Gaithersburg, Maryland",
+		"id_pais" : 42
+	},
+	{
+		"id" : 402,
+		"ciudad" : "Urbana, IL",
+		"id_pais" : 42
+	},
+	{
+		"id" : 403,
+		"ciudad" : "",
+		"id_pais" : 46
+	},
+	{
+		"id" : 404,
+		"ciudad" : "London",
+		"id_pais" : 8
+	},
+	{
+		"id" : 405,
+		"ciudad" : "Bologna",
+		"id_pais" : 3
+	},
+	{
+		"id" : 406,
+		"ciudad" : "Dimitrovgrad",
+		"id_pais" : 51
+	},
+	{
+		"id" : 407,
+		"ciudad" : "Obninsk",
+		"id_pais" : 51
+	},
+	{
+		"id" : 408,
+		"ciudad" : "Vinca",
+		"id_pais" : 56
+	},
+	{
+		"id" : 409,
+		"ciudad" : "Nyköping",
+		"id_pais" : 6
+	},
+	{
+		"id" : 410,
+		"ciudad" : "Dushanbe",
+		"id_pais" : 45
+	},
+	{
+		"id" : 411,
+		"ciudad" : "Berkeley, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 412,
+		"ciudad" : "Hamburg",
+		"id_pais" : 11
+	},
+	{
+		"id" : 413,
+		"ciudad" : "Palo Alto, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 414,
+		"ciudad" : "Atlanta, GA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 415,
+		"ciudad" : "Prague",
+		"id_pais" : 5
+	},
+	{
+		"id" : 416,
+		"ciudad" : "Chicago, IL",
+		"id_pais" : 42
+	},
+	{
+		"id" : 417,
+		"ciudad" : "Pinawa, MB",
+		"id_pais" : 12
+	},
+	{
+		"id" : 418,
+		"ciudad" : "Mol",
+		"id_pais" : 64
+	},
+	{
+		"id" : 419,
+		"ciudad" : "Bremen",
+		"id_pais" : 11
+	},
+	{
+		"id" : 420,
+		"ciudad" : "Rolla, MO",
+		"id_pais" : 42
+	},
+	{
+		"id" : 421,
+		"ciudad" : "Charleston, SC",
+		"id_pais" : 42
+	},
+	{
+		"id" : 422,
+		"ciudad" : "Lemont, IL",
+		"id_pais" : 42
+	},
+	{
+		"id" : 423,
+		"ciudad" : "San Luis Obispo, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 424,
+		"ciudad" : "Algiers",
+		"id_pais" : 28
+	},
+	{
+		"id" : 425,
+		"ciudad" : "Baton Rouge, LA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 426,
+		"ciudad" : "Karlsruhe",
+		"id_pais" : 11
+	},
+	{
+		"id" : 427,
+		"ciudad" : "Zurich",
+		"id_pais" : 44
+	},
+	{
+		"id" : 428,
+		"ciudad" : "Stockholm",
+		"id_pais" : 6
+	},
+	{
+		"id" : 429,
+		"ciudad" : "Dresden \/ Rossendorf",
+		"id_pais" : 11
+	},
+	{
+		"id" : 430,
+		"ciudad" : "Kajang",
+		"id_pais" : 35
+	},
+	{
+		"id" : 431,
+		"ciudad" : "Djelfa",
+		"id_pais" : 28
+	},
+	{
+		"id" : 432,
+		"ciudad" : "Zion, IL",
+		"id_pais" : 42
+	},
+	{
+		"id" : 433,
+		"ciudad" : "Buenos Aires",
+		"id_pais" : 19
+	},
+	{
+		"id" : 434,
+		"ciudad" : "Madrid",
+		"id_pais" : 60
+	},
+	{
+		"id" : 435,
+		"ciudad" : "Gatchina",
+		"id_pais" : 51
+	},
+	{
+		"id" : 436,
+		"ciudad" : "Budapest",
+		"id_pais" : 46
+	},
+	{
+		"id" : 437,
+		"ciudad" : "Windsor, CT",
+		"id_pais" : 42
+	},
+	{
+		"id" : 438,
+		"ciudad" : "Pullman, WA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 439,
+		"ciudad" : "Pretoria",
+		"id_pais" : 32
+	},
+	{
+		"id" : 440,
+		"ciudad" : "Saitama",
+		"id_pais" : 37
+	},
+	{
+		"id" : 441,
+		"ciudad" : "Thessaloniki",
+		"id_pais" : 24
+	},
+	{
+		"id" : 442,
+		"ciudad" : "Santa Barbara, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 443,
+		"ciudad" : "Shenzhen",
+		"id_pais" : 47
+	},
+	{
+		"id" : 444,
+		"ciudad" : "Berkeley",
+		"id_pais" : 8
+	},
+	{
+		"id" : 445,
+		"ciudad" : "Osaka",
+		"id_pais" : 37
+	},
+	{
+		"id" : 446,
+		"ciudad" : "Stuttgart",
+		"id_pais" : 11
+	},
+	{
+		"id" : 447,
+		"ciudad" : "Arnhem",
+		"id_pais" : 58
+	},
+	{
+		"id" : 448,
+		"ciudad" : "Seattle",
+		"id_pais" : 42
+	},
+	{
+		"id" : 449,
+		"ciudad" : "Delft",
+		"id_pais" : 58
+	},
+	{
+		"id" : 450,
+		"ciudad" : "Madison, WI",
+		"id_pais" : 42
+	},
+	{
+		"id" : 451,
+		"ciudad" : "Berlin",
+		"id_pais" : 11
+	},
+	{
+		"id" : 452,
+		"ciudad" : "Santiago",
+		"id_pais" : 27
+	},
+	{
+		"id" : 453,
+		"ciudad" : "San Diego",
+		"id_pais" : 42
+	},
+	{
+		"id" : 454,
+		"ciudad" : "Rome",
+		"id_pais" : 3
+	},
+	{
+		"id" : 455,
+		"ciudad" : "Abuja",
+		"id_pais" : 43
+	},
+	{
+		"id" : 456,
+		"ciudad" : "Tomsk",
+		"id_pais" : 51
+	},
+	{
+		"id" : 457,
+		"ciudad" : "Damascus",
+		"id_pais" : 10
+	},
+	{
+		"id" : 458,
+		"ciudad" : "Sacramento, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 459,
+		"ciudad" : "Silver Spring, MD",
+		"id_pais" : 42
+	},
+	{
+		"id" : 460,
+		"ciudad" : "Laramie, WY",
+		"id_pais" : 42
+	},
+	{
+		"id" : 461,
+		"ciudad" : "Livermore, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 462,
+		"ciudad" : "Kjeller",
+		"id_pais" : 48
+	},
+	{
+		"id" : 463,
+		"ciudad" : "Eindhoven",
+		"id_pais" : 58
+	},
+	{
+		"id" : 464,
+		"ciudad" : "Tashkent",
+		"id_pais" : 13
+	},
+	{
+		"id" : 465,
+		"ciudad" : "Frankfurt am Main",
+		"id_pais" : 11
+	},
+	{
+		"id" : 466,
+		"ciudad" : "Jülich",
+		"id_pais" : 11
+	},
+	{
+		"id" : 467,
+		"ciudad" : "Saclay",
+		"id_pais" : 29
+	},
+	{
+		"id" : 468,
+		"ciudad" : "Hamilton, ON",
+		"id_pais" : 12
+	},
+	{
+		"id" : 469,
+		"ciudad" : "Electrostal",
+		"id_pais" : 51
+	},
+	{
+		"id" : 470,
+		"ciudad" : "La Marquesa Ocoyoacac",
+		"id_pais" : 67
+	},
+	{
+		"id" : 471,
+		"ciudad" : "Narragansett, RI",
+		"id_pais" : 42
+	},
+	{
+		"id" : 472,
+		"ciudad" : "",
+		"id_pais" : 37
+	},
+	{
+		"id" : 473,
+		"ciudad" : "Zacatecas",
+		"id_pais" : 67
+	},
+	{
+		"id" : 474,
+		"ciudad" : "Ames, IA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 475,
+		"ciudad" : "Iperó",
+		"id_pais" : 53
+	},
+	{
+		"id" : 476,
+		"ciudad" : "Santa Susana, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 477,
+		"ciudad" : "Washington, D.C.",
+		"id_pais" : 42
+	},
+	{
+		"id" : 478,
+		"ciudad" : "Montréal",
+		"id_pais" : 12
+	},
+	{
+		"id" : 479,
+		"ciudad" : "Pavia",
+		"id_pais" : 3
+	},
+	{
+		"id" : 480,
+		"ciudad" : "Nyongbyon",
+		"id_pais" : 21
+	},
+	{
+		"id" : 481,
+		"ciudad" : "Sevastopol",
+		"id_pais" : 18
+	},
+	{
+		"id" : 482,
+		"ciudad" : "Ulm",
+		"id_pais" : 11
+	},
+	{
+		"id" : 483,
+		"ciudad" : "Nizhny Novgorod",
+		"id_pais" : 51
+	},
+	{
+		"id" : 484,
+		"ciudad" : "Basel",
+		"id_pais" : 44
+	},
+	{
+		"id" : 485,
+		"ciudad" : "Tokyo",
+		"id_pais" : 37
+	},
+	{
+		"id" : 486,
+		"ciudad" : "Geesthact",
+		"id_pais" : 11
+	},
+	{
+		"id" : 487,
+		"ciudad" : "Rež",
+		"id_pais" : 5
+	},
+	{
+		"id" : 488,
+		"ciudad" : "Pleasanton, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 489,
+		"ciudad" : "Bandung",
+		"id_pais" : 1
+	},
+	{
+		"id" : 490,
+		"ciudad" : "Tokai-mura",
+		"id_pais" : 37
+	},
+	{
+		"id" : 491,
+		"ciudad" : "Hsinchu City",
+		"id_pais" : 65
+	},
+	{
+		"id" : 492,
+		"ciudad" : "Los Alamos, NM",
+		"id_pais" : 42
+	},
+	{
+		"id" : 493,
+		"ciudad" : "Oak Ridge, TN",
+		"id_pais" : 42
+	},
+	{
+		"id" : 494,
+		"ciudad" : "Portland, OR",
+		"id_pais" : 42
+	},
+	{
+		"id" : 495,
+		"ciudad" : "Mainz",
+		"id_pais" : 11
+	},
+	{
+		"id" : 496,
+		"ciudad" : "Riyadh",
+		"id_pais" : 17
+	},
+	{
+		"id" : 497,
+		"ciudad" : "Bagnols-sur-Cèze",
+		"id_pais" : 29
+	},
+	{
+		"id" : 498,
+		"ciudad" : "Yogyakarta",
+		"id_pais" : 1
+	},
+	{
+		"id" : 499,
+		"ciudad" : "College Station, TX",
+		"id_pais" : 42
+	},
+	{
+		"id" : 500,
+		"ciudad" : "Mayagüez, Puerto Rico",
+		"id_pais" : 42
+	},
+	{
+		"id" : 501,
+		"ciudad" : "Busan",
+		"id_pais" : 30
+	},
+	{
+		"id" : 502,
+		"ciudad" : "New Stanton, PA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 503,
+		"ciudad" : "Milan",
+		"id_pais" : 3
+	},
+	{
+		"id" : 504,
+		"ciudad" : "Dijon",
+		"id_pais" : 29
+	},
+	{
+		"id" : 505,
+		"ciudad" : "Mexico City",
+		"id_pais" : 67
+	},
+	{
+		"id" : 506,
+		"ciudad" : "West Fork, AR",
+		"id_pais" : 42
+	},
+	{
+		"id" : 507,
+		"ciudad" : "Middletown, CT",
+		"id_pais" : 42
+	},
+	{
+		"id" : 508,
+		"ciudad" : "Tuskegee, AL",
+		"id_pais" : 42
+	},
+	{
+		"id" : 509,
+		"ciudad" : "Tokai",
+		"id_pais" : 37
+	},
+	{
+		"id" : 510,
+		"ciudad" : "Graz",
+		"id_pais" : 54
+	},
+	{
+		"id" : 511,
+		"ciudad" : "Dorchester",
+		"id_pais" : 8
+	},
+	{
+		"id" : 512,
+		"ciudad" : "Mumbai",
+		"id_pais" : 26
+	},
+	{
+		"id" : 513,
+		"ciudad" : "Omaha, NE",
+		"id_pais" : 42
+	},
+	{
+		"id" : 514,
+		"ciudad" : "Padua",
+		"id_pais" : 3
+	},
+	{
+		"id" : 515,
+		"ciudad" : "Milwaukee, WI",
+		"id_pais" : 42
+	},
+	{
+		"id" : 516,
+		"ciudad" : "Roskilde",
+		"id_pais" : 38
+	},
+	{
+		"id" : 517,
+		"ciudad" : "West Lafayette, IN",
+		"id_pais" : 42
+	},
+	{
+		"id" : 518,
+		"ciudad" : "Sydney",
+		"id_pais" : 55
+	},
+	{
+		"id" : 519,
+		"ciudad" : "Bogota",
+		"id_pais" : 16
+	},
+	{
+		"id" : 520,
+		"ciudad" : "Aix-en-Provence",
+		"id_pais" : 29
+	},
+	{
+		"id" : 521,
+		"ciudad" : "Upton, NY",
+		"id_pais" : 42
+	},
+	{
+		"id" : 522,
+		"ciudad" : "Lawrence, KS",
+		"id_pais" : 42
+	},
+	{
+		"id" : 523,
+		"ciudad" : "Saskatoon",
+		"id_pais" : 12
+	},
+	{
+		"id" : 524,
+		"ciudad" : "Aiken, SC",
+		"id_pais" : 42
+	},
+	{
+		"id" : 525,
+		"ciudad" : "Baltimore",
+		"id_pais" : 42
+	},
+	{
+		"id" : 526,
+		"ciudad" : "Cairo",
+		"id_pais" : 23
+	},
+	{
+		"id" : 527,
+		"ciudad" : "Pisa",
+		"id_pais" : 3
+	},
+	{
+		"id" : 528,
+		"ciudad" : "Helsinki",
+		"id_pais" : 14
+	},
+	{
+		"id" : 529,
+		"ciudad" : "Carhaix-Plouguer",
+		"id_pais" : 29
+	},
+	{
+		"id" : 530,
+		"ciudad" : "Würenlingen",
+		"id_pais" : 44
+	},
+	{
+		"id" : 531,
+		"ciudad" : "Córdoba",
+		"id_pais" : 19
+	},
+	{
+		"id" : 532,
+		"ciudad" : "San Diego, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 533,
+		"ciudad" : "Aachen",
+		"id_pais" : 11
+	},
+	{
+		"id" : 534,
+		"ciudad" : "Fort Worth, TX",
+		"id_pais" : 42
+	},
+	{
+		"id" : 535,
+		"ciudad" : "Snezhinsk",
+		"id_pais" : 51
+	},
+	{
+		"id" : 536,
+		"ciudad" : "Norman, OK",
+		"id_pais" : 42
+	},
+	{
+		"id" : 537,
+		"ciudad" : "Pocatello, ID",
+		"id_pais" : 42
+	},
+	{
+		"id" : 538,
+		"ciudad" : "Thurso",
+		"id_pais" : 8
+	},
+	{
+		"id" : 539,
+		"ciudad" : "Sao Paulo",
+		"id_pais" : 53
+	},
+	{
+		"id" : 540,
+		"ciudad" : "Norilsk",
+		"id_pais" : 51
+	},
+	{
+		"id" : 541,
+		"ciudad" : "Quezon City",
+		"id_pais" : 40
+	},
+	{
+		"id" : 542,
+		"ciudad" : "Athens",
+		"id_pais" : 24
+	},
+	{
+		"id" : 543,
+		"ciudad" : "Houston, TX",
+		"id_pais" : 42
+	},
+	{
+		"id" : 544,
+		"ciudad" : "Mianyang",
+		"id_pais" : 47
+	},
+	{
+		"id" : 545,
+		"ciudad" : "Bethesda, MD",
+		"id_pais" : 42
+	},
+	{
+		"id" : 546,
+		"ciudad" : "Gainesville, FL",
+		"id_pais" : 42
+	},
+	{
+		"id" : 547,
+		"ciudad" : "Saint-Paul-les-Durance",
+		"id_pais" : 29
+	},
+	{
+		"id" : 548,
+		"ciudad" : "Ballston Spa, NY",
+		"id_pais" : 42
+	},
+	{
+		"id" : 549,
+		"ciudad" : "Idaho Falls",
+		"id_pais" : 42
+	},
+	{
+		"id" : 550,
+		"ciudad" : "Watertown, MA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 551,
+		"ciudad" : "Dalat",
+		"id_pais" : 7
+	},
+	{
+		"id" : 552,
+		"ciudad" : "Halden",
+		"id_pais" : 48
+	},
+	{
+		"id" : 553,
+		"ciudad" : "Chalk River, ON",
+		"id_pais" : 12
+	},
+	{
+		"id" : 554,
+		"ciudad" : "Kalpakkam",
+		"id_pais" : 26
+	},
+	{
+		"id" : 555,
+		"ciudad" : "Zittau",
+		"id_pais" : 11
+	},
+	{
+		"id" : 556,
+		"ciudad" : "Marcoule",
+		"id_pais" : 29
+	},
+	{
+		"id" : 557,
+		"ciudad" : "Ottawa",
+		"id_pais" : 12
+	},
+	{
+		"id" : 558,
+		"ciudad" : "Cleveland, OH",
+		"id_pais" : 42
+	},
+	{
+		"id" : 559,
+		"ciudad" : "Ljubljana",
+		"id_pais" : 22
+	},
+	{
+		"id" : 560,
+		"ciudad" : "Lowell, MA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 561,
+		"ciudad" : "Yokosuka",
+		"id_pais" : 37
+	},
+	{
+		"id" : 562,
+		"ciudad" : "Edmonton",
+		"id_pais" : 12
+	},
+	{
+		"id" : 563,
+		"ciudad" : "Espoo",
+		"id_pais" : 14
+	},
+	{
+		"id" : 564,
+		"ciudad" : "Strasbourg",
+		"id_pais" : 29
+	},
+	{
+		"id" : 565,
+		"ciudad" : "Billingham",
+		"id_pais" : 8
+	},
+	{
+		"id" : 566,
+		"ciudad" : "Las Cruces, NM",
+		"id_pais" : 42
+	},
+	{
+		"id" : 567,
+		"ciudad" : "Didcot",
+		"id_pais" : 8
+	},
+	{
+		"id" : 568,
+		"ciudad" : "Saint-Paul-lès-Durance",
+		"id_pais" : 29
+	},
+	{
+		"id" : 569,
+		"ciudad" : "Cadarache",
+		"id_pais" : 29
+	},
+	{
+		"id" : 570,
+		"ciudad" : "Islamabad",
+		"id_pais" : 50
+	},
+	{
+		"id" : 571,
+		"ciudad" : "Midland, MI",
+		"id_pais" : 42
+	},
+	{
+		"id" : 572,
+		"ciudad" : "Columbus, OH",
+		"id_pais" : 42
+	},
+	{
+		"id" : 573,
+		"ciudad" : "Golden, CO",
+		"id_pais" : 42
+	},
+	{
+		"id" : 574,
+		"ciudad" : "Ezeiza",
+		"id_pais" : 19
+	},
+	{
+		"id" : 575,
+		"ciudad" : "Mona",
+		"id_pais" : 39
+	},
+	{
+		"id" : 576,
+		"ciudad" : "Belo Horizonte",
+		"id_pais" : 53
+	},
+	{
+		"id" : 577,
+		"ciudad" : "Bucharest",
+		"id_pais" : 52
+	},
+	{
+		"id" : 578,
+		"ciudad" : "Worcester, MA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 579,
+		"ciudad" : "Belgrade",
+		"id_pais" : 56
+	},
+	{
+		"id" : 580,
+		"ciudad" : "Montevideo",
+		"id_pais" : 4
+	},
+	{
+		"id" : 581,
+		"ciudad" : "Nakorn Ratchasima",
+		"id_pais" : 70
+	},
+	{
+		"id" : 582,
+		"ciudad" : "Dubna",
+		"id_pais" : 51
+	},
+	{
+		"id" : 583,
+		"ciudad" : "Boston",
+		"id_pais" : 42
+	},
+	{
+		"id" : 584,
+		"ciudad" : "Montréal, QC",
+		"id_pais" : 12
+	},
+	{
+		"id" : 585,
+		"ciudad" : "Plainsboro, NJ",
+		"id_pais" : 42
+	},
+	{
+		"id" : 586,
+		"ciudad" : "Darmstadt",
+		"id_pais" : 11
+	},
+	{
+		"id" : 587,
+		"ciudad" : "Las Vegas, NV",
+		"id_pais" : 42
+	},
+	{
+		"id" : 588,
+		"ciudad" : "Otwock",
+		"id_pais" : 68
+	},
+	{
+		"id" : 589,
+		"ciudad" : "Villigen",
+		"id_pais" : 44
+	},
+	{
+		"id" : 590,
+		"ciudad" : "Blacksburg, VA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 591,
+		"ciudad" : "Chengdu",
+		"id_pais" : 47
+	},
+	{
+		"id" : 592,
+		"ciudad" : "Pitesti",
+		"id_pais" : 52
+	},
+	{
+		"id" : 593,
+		"ciudad" : "Dresden",
+		"id_pais" : 11
+	},
+	{
+		"id" : 594,
+		"ciudad" : "Dawsonville, GA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 595,
+		"ciudad" : "Dresden\/Rossendorf",
+		"id_pais" : 11
+	},
+	{
+		"id" : 596,
+		"ciudad" : "Columbia, MO",
+		"id_pais" : 42
+	},
+	{
+		"id" : 597,
+		"ciudad" : "Charlottesville, VA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 598,
+		"ciudad" : "Plzen",
+		"id_pais" : 5
+	},
+	{
+		"id" : 599,
+		"ciudad" : "Istanbul",
+		"id_pais" : 66
+	},
+	{
+		"id" : 600,
+		"ciudad" : "Beijing",
+		"id_pais" : 47
+	},
+	{
+		"id" : 601,
+		"ciudad" : "Rosario",
+		"id_pais" : 19
+	},
+	{
+		"id" : 602,
+		"ciudad" : "Dhaka",
+		"id_pais" : 2
+	},
+	{
+		"id" : 603,
+		"ciudad" : "Tokai Mura",
+		"id_pais" : 37
+	},
+	{
+		"id" : 604,
+		"ciudad" : "Taoyuan City",
+		"id_pais" : 65
+	},
+	{
+		"id" : 605,
+		"ciudad" : "Saxton, PA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 606,
+		"ciudad" : "Minsk",
+		"id_pais" : 49
+	},
+	{
+		"id" : 607,
+		"ciudad" : "St. Petersburg",
+		"id_pais" : 51
+	},
+	{
+		"id" : 608,
+		"ciudad" : "Albuquerque, NM",
+		"id_pais" : 42
+	},
+	{
+		"id" : 609,
+		"ciudad" : "Furtwangen im Schwarzwald",
+		"id_pais" : 11
+	},
+	{
+		"id" : 610,
+		"ciudad" : "Ithaca, NY",
+		"id_pais" : 42
+	},
+	{
+		"id" : 611,
+		"ciudad" : "Corvallis, OR",
+		"id_pais" : 42
+	},
+	{
+		"id" : 612,
+		"ciudad" : "Vienna",
+		"id_pais" : 54
+	},
+	{
+		"id" : 613,
+		"ciudad" : "Seoul",
+		"id_pais" : 30
+	},
+	{
+		"id" : 614,
+		"ciudad" : "Denver",
+		"id_pais" : 42
+	},
+	{
+		"id" : 615,
+		"ciudad" : "Clearfield, PA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 616,
+		"ciudad" : "Gif-sur-Yvette",
+		"id_pais" : 29
+	},
+	{
+		"id" : 617,
+		"ciudad" : "Aldermaston",
+		"id_pais" : 8
+	},
+	{
+		"id" : 618,
+		"ciudad" : "Kingston, ON",
+		"id_pais" : 12
+	},
+	{
+		"id" : 619,
+		"ciudad" : "Visakhapatnam",
+		"id_pais" : 26
+	},
+	{
+		"id" : 620,
+		"ciudad" : "Warrington",
+		"id_pais" : 8
+	},
+	{
+		"id" : 621,
+		"ciudad" : "Simi Valley, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 622,
+		"ciudad" : "Husinec-Rez",
+		"id_pais" : 5
+	},
+	{
+		"id" : 623,
+		"ciudad" : "Wageningen",
+		"id_pais" : 58
+	},
+	{
+		"id" : 624,
+		"ciudad" : "Elektrostal",
+		"id_pais" : 51
+	},
+	{
+		"id" : 625,
+		"ciudad" : "Tokai-Mura",
+		"id_pais" : 37
+	},
+	{
+		"id" : 626,
+		"ciudad" : "Grenoble",
+		"id_pais" : 29
+	},
+	{
+		"id" : 627,
+		"ciudad" : "Halifax",
+		"id_pais" : 12
+	},
+	{
+		"id" : 628,
+		"ciudad" : "Irvine, CA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 629,
+		"ciudad" : "Yongin",
+		"id_pais" : 30
+	},
+	{
+		"id" : 630,
+		"ciudad" : "Lynchburg, VA",
+		"id_pais" : 42
+	},
+	{
+		"id" : 631,
+		"ciudad" : "San Carlos de Bariloche",
+		"id_pais" : 19
+	},
+	{
+		"id" : 632,
+		"ciudad" : "Ghent",
+		"id_pais" : 64
+	},
+	{
+		"id" : 633,
+		"ciudad" : "Toronto, ON",
+		"id_pais" : 12
+	},
+	{
+		"id" : 634,
+		"ciudad" : "Kurchatov",
+		"id_pais" : 36
+	},
+	{
+		"id" : 635,
+		"ciudad" : "Saluggia",
+		"id_pais" : 3
+	},
+	{
+		"id" : 636,
+		"ciudad" : "Rabat",
+		"id_pais" : 63
+	},
+	{
+		"id" : 637,
+		"ciudad" : "Lausanne",
+		"id_pais" : 44
+	},
+	{
+		"id" : 638,
+		"ciudad" : "Shanghai",
+		"id_pais" : 47
+	},
+	{
+		"id" : 639,
+		"ciudad" : "Derby",
+		"id_pais" : 8
+	},
+	{
+		"id" : 640,
+		"ciudad" : "Chelyabinsk",
+		"id_pais" : 51
+	},
+	{
+		"id" : 641,
+		"ciudad" : "Washington, DC",
+		"id_pais" : 42
+	},
+	{
+		"id" : 642,
+		"ciudad" : "Raleigh",
+		"id_pais" : 42
+	},
+	{
+		"id" : 643,
+		"ciudad" : "Barcelona",
+		"id_pais" : 60
+	},
+	{
+		"id" : 644,
+		"ciudad" : "Lisbon",
+		"id_pais" : 15
+	},
+	{
+		"id" : 645,
+		"ciudad" : "Provo, UT",
+		"id_pais" : 42
+	},
+	{
+		"id" : 646,
+		"ciudad" : "Tajoura",
+		"id_pais" : 59
+	},
+	{
+		"id" : 647,
+		"ciudad" : "Jinan",
+		"id_pais" : 47
+	},
+	{
+		"id" : 648,
+		"ciudad" : "Almaty",
+		"id_pais" : 36
+	},
+	{
+		"id" : 649,
+		"ciudad" : "Medellín",
+		"id_pais" : 16
+	},
+	{
+		"id" : 650,
+		"ciudad" : "Queens",
+		"id_pais" : 71
+	},
+	{
+		"id" : 651,
+		"ciudad" : "string",
+		"id_pais" : 72
+	}
+]}

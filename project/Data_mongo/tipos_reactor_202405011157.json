@@ -1,0 +1,335 @@
+{
+"tipos_reactor": [
+	{
+		"id" : 1,
+		"tipo" : "FAST BURST"
+	},
+	{
+		"id" : 2,
+		"tipo" : "HOMOG"
+	},
+	{
+		"id" : 3,
+		"tipo" : "BWR"
+	},
+	{
+		"id" : 4,
+		"tipo" : "FAST"
+	},
+	{
+		"id" : 5,
+		"tipo" : "CRIT ASSEMBLY"
+	},
+	{
+		"id" : 6,
+		"tipo" : "TRIGA MODIFIED"
+	},
+	{
+		"id" : 7,
+		"tipo" : "CHANNEL TYPE"
+	},
+	{
+		"id" : 8,
+		"tipo" : "POOL, PULSTAR"
+	},
+	{
+		"id" : 9,
+		"tipo" : "ZRH, H2O COOLED"
+	},
+	{
+		"id" : 10,
+		"tipo" : "TANK WWR"
+	},
+	{
+		"id" : 11,
+		"tipo" : "TRIGA MARK F"
+	},
+	{
+		"id" : 12,
+		"tipo" : "PULSING"
+	},
+	{
+		"id" : 13,
+		"tipo" : "TRIGA CONV"
+	},
+	{
+		"id" : 14,
+		"tipo" : "GRAPHITE AGR"
+	},
+	{
+		"id" : 15,
+		"tipo" : "POOL - VARIABLE CORE"
+	},
+	{
+		"id" : 16,
+		"tipo" : "HIGH TEMP GAS"
+	},
+	{
+		"id" : 17,
+		"tipo" : "BWR-PROTOTYPE"
+	},
+	{
+		"id" : 18,
+		"tipo" : "FAST, POWER"
+	},
+	{
+		"id" : 19,
+		"tipo" : "POOL, MTR"
+	},
+	{
+		"id" : 20,
+		"tipo" : "ARGONAUT"
+	},
+	{
+		"id" : 21,
+		"tipo" : "TRIGA MARK II"
+	},
+	{
+		"id" : 22,
+		"tipo" : "LOOP TYPE"
+	},
+	{
+		"id" : 23,
+		"tipo" : "HOMOG (L)"
+	},
+	{
+		"id" : 24,
+		"tipo" : "FAST, NA COOLED"
+	},
+	{
+		"id" : 25,
+		"tipo" : "AIR COOLED"
+	},
+	{
+		"id" : 26,
+		"tipo" : "CRIT GRAPHITE"
+	},
+	{
+		"id" : 27,
+		"tipo" : "SPACE TEST"
+	},
+	{
+		"id" : 28,
+		"tipo" : "PWR"
+	},
+	{
+		"id" : 29,
+		"tipo" : "HEAVY WATER"
+	},
+	{
+		"id" : 30,
+		"tipo" : "POOL"
+	},
+	{
+		"id" : 31,
+		"tipo" : "POOL\/CHANNELS"
+	},
+	{
+		"id" : 32,
+		"tipo" : "FAST BREEDER"
+	},
+	{
+		"id" : 33,
+		"tipo" : "HEATING PROT"
+	},
+	{
+		"id" : 34,
+		"tipo" : "POOL, UZRH"
+	},
+	{
+		"id" : 35,
+		"tipo" : "PROMPT BURST"
+	},
+	{
+		"id" : 36,
+		"tipo" : "HOMOG (S)"
+	},
+	{
+		"id" : 37,
+		"tipo" : "N2 COOLED"
+	},
+	{
+		"id" : 38,
+		"tipo" : "SLOWPOKE-2"
+	},
+	{
+		"id" : 39,
+		"tipo" : "CRIT FAST"
+	},
+	{
+		"id" : 40,
+		"tipo" : "SLOWPOKE"
+	},
+	{
+		"id" : 41,
+		"tipo" : "TRIGA ACPR"
+	},
+	{
+		"id" : 42,
+		"tipo" : "TANK IN POOL"
+	},
+	{
+		"id" : 43,
+		"tipo" : "FAST, PULSED"
+	},
+	{
+		"id" : 44,
+		"tipo" : "GRAPHITE"
+	},
+	{
+		"id" : 45,
+		"tipo" : "ORGANIC MODER"
+	},
+	{
+		"id" : 46,
+		"tipo" : "PWR PROPULSION"
+	},
+	{
+		"id" : 47,
+		"tipo" : "TANK"
+	},
+	{
+		"id" : 48,
+		"tipo" : "PRESSURIZED"
+	},
+	{
+		"id" : 49,
+		"tipo" : "POOL-2 CORES"
+	},
+	{
+		"id" : 50,
+		"tipo" : "ZRH, BE REFLECT"
+	},
+	{
+		"id" : 51,
+		"tipo" : ""
+	},
+	{
+		"id" : 52,
+		"tipo" : "BWR POWER"
+	},
+	{
+		"id" : 53,
+		"tipo" : "HE COOLED"
+	},
+	{
+		"id" : 54,
+		"tipo" : "SUBCRIT"
+	},
+	{
+		"id" : 55,
+		"tipo" : "FAST, HG COOLED"
+	},
+	{
+		"id" : 56,
+		"tipo" : "TRIGA MARK CONV"
+	},
+	{
+		"id" : 57,
+		"tipo" : "GRAPHITE PILE"
+	},
+	{
+		"id" : 58,
+		"tipo" : "TRIGA MARK III"
+	},
+	{
+		"id" : 59,
+		"tipo" : "PRESSURE VESSEL"
+	},
+	{
+		"id" : 60,
+		"tipo" : "GRAPHITE, AIR"
+	},
+	{
+		"id" : 61,
+		"tipo" : "HOMOG PUL"
+	},
+	{
+		"id" : 62,
+		"tipo" : "MNSR"
+	},
+	{
+		"id" : 63,
+		"tipo" : "POOL, IRT"
+	},
+	{
+		"id" : 64,
+		"tipo" : "TRIGA"
+	},
+	{
+		"id" : 65,
+		"tipo" : "MOBILE EDU."
+	},
+	{
+		"id" : 66,
+		"tipo" : "AQUEOUS BREEDER"
+	},
+	{
+		"id" : 67,
+		"tipo" : "EXPERIMENTAL"
+	},
+	{
+		"id" : 68,
+		"tipo" : "FAST SOURCE"
+	},
+	{
+		"id" : 69,
+		"tipo" : "U-233 FUELLED"
+	},
+	{
+		"id" : 70,
+		"tipo" : "ZERO POWER HTD"
+	},
+	{
+		"id" : 71,
+		"tipo" : "GRAPHITE CO2"
+	},
+	{
+		"id" : 72,
+		"tipo" : "PWR POWER"
+	},
+	{
+		"id" : 73,
+		"tipo" : "TRIGA MARK I"
+	},
+	{
+		"id" : 74,
+		"tipo" : "GAS"
+	},
+	{
+		"id" : 75,
+		"tipo" : "GRAPHITE, PULSE"
+	},
+	{
+		"id" : 76,
+		"tipo" : "ZERO POWER D2O"
+	},
+	{
+		"id" : 77,
+		"tipo" : "TRIGA DUAL CORE"
+	},
+	{
+		"id" : 78,
+		"tipo" : "P"
+	},
+	{
+		"id" : 79,
+		"tipo" : "tipo2"
+	},
+	{
+		"id" : 80,
+		"tipo" : "test"
+	},
+	{
+		"id" : 81,
+		"tipo" : "A"
+	},
+	{
+		"id" : 82,
+		"tipo" : "string"
+	},
+	{
+		"id" : 83,
+		"tipo" : "Actualizado"
+	}
+]}
