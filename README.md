@@ -20,8 +20,11 @@ Este proyecto se realizó utilizando el lenguaje de programación Python y el Mo
 - **.env**: Archivo que contiene variables de entorno para la configuración local del proyecto, como claves secretas, configuraciones de la base de datos, etc.
 
 ## Datos
-1. Crear Uuarios
+1. **Crear Uuarios**
   ![alt text](Usuarios.png)
+
+2. **Crear la Base de datos y a su vez las colecciones**
+  ![alt text](Colleciones_en_mongodb.png)
 
 
 # Pasos para la Ejecución
