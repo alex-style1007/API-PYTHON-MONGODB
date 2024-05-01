@@ -1,0 +1,44 @@
+# Archivos y directorios generados automáticamente
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+*.class
+
+# Entorno virtual 
+venv/
+env/
+*.env
+
+# Archivos de registro
+*.log
+
+# Archivos de compilación y resultados de pruebas
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+*.class
+*.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.egg-info
+*.egg
+dist/
+build/
+MANIFEST
+*.manifest
+*.spec
+
+# Carpetas específicas a tu entorno o herramientas
+.idea/
+.vscode/
+.vs/
+#Pipenv
+Pipfile
+Compass.png
