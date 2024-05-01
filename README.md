@@ -18,6 +18,40 @@ Este proyecto se realizó utilizando el lenguaje de programación Python y el Mo
 - **README.md**: Archivo de documentación que proporciona información sobre el proyecto, cómo configurarlo, ejecutarlo y usarlo.
 - **.gitignore**: Archivo que especifica qué archivos y directorios deben ser ignorados por Git durante el versionado del proyecto.
 - **.env**: Archivo que contiene variables de entorno para la configuración local del proyecto, como claves secretas, configuraciones de la base de datos, etc.
+En este caso se almaceno una variable de entorno llamada uri que tiene la siguiente estructura
+
+```python
+uri = "mongodb+srv://<username>:<password>@cluster0.3l35xwi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+```
+
+## Conexion a MongoDB
+
+Antes se debe verificar que este instalado el siguiente paquete.
+
+```python
+python -m pip install "pymongo[srv]"
+```
+
+De la siguiente forma se implementa la conexion a la bd
+
+```python
+
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
+
+uri = "mongodb+srv://<username>:<password>@cluster0.3l35xwi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
+# Create a new client and connect to the server
+client = MongoClient(uri, server_api=ServerApi('1'))
+
+# Send a ping to confirm a successful connection
+try:
+    client.admin.command('ping')
+    print("Pinged your deployment. You successfully connected to MongoDB!")
+except Exception as e:
+    print(e)
+```
+
 
 ## Datos
 1. **Crear Uuarios**
