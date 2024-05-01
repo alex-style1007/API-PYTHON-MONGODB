@@ -25,7 +25,10 @@ Este proyecto se realizó utilizando el lenguaje de programación Python y el Mo
 
 2. **Crear la Base de datos y a su vez las colecciones**
   ![alt text](Colleciones_en_Mongodb.png)
-
+  2.1 Ejemplo de la coleccion paises
+  ![alt text](Colleciones_Paises.png)
+    2.2 Ejemplo de la coleccion estados
+  ![alt text](Colleciones_estados.png)
 
 # Pasos para la Ejecución
 
