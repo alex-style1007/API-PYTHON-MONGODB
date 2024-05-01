@@ -19,6 +19,9 @@ Este proyecto se realizó utilizando el lenguaje de programación Python y el Mo
 - **.gitignore**: Archivo que especifica qué archivos y directorios deben ser ignorados por Git durante el versionado del proyecto.
 - **.env**: Archivo que contiene variables de entorno para la configuración local del proyecto, como claves secretas, configuraciones de la base de datos, etc.
 
+## Datos
+1. Crear Uuarios
+  ![alt text](Usuarios.png)
 
 
 # Pasos para la Ejecución
