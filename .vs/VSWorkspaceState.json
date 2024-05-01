@@ -1,14 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\proyect",
-    "\\proyect\\app",
-    "\\proyect\\app\\context",
-    "\\proyect\\app\\Controller",
-    "\\proyect\\app\\model",
-    "\\proyect\\app\\repository",
-    "\\proyect\\app\\service"
+    "\\project"
   ],
-  "SelectedNode": "\\proyect\\.gitignore",
+  "SelectedNode": "\\Pipfile",
   "PreviewInSolutionExplorer": false
 }
