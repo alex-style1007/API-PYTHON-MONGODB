@@ -76,6 +76,12 @@ Esto se hace con el fin de mantener lo mayormente seguro el entorno de desarroll
   4. coleccion de las ubicaciones
   ![alt text](Ubicacion.png)
 
+## Conexion usando MongoDB Compass
+
+Para conectarse localmente, seleccionamos la opcion Compass que se habilita al dar click en la opcion Conectar. 
+Despues de modificar el string proporcionado con el **admin** y **pasword** habilitados se ve de la siguiente manera al conectarse.
+  ![alt text](Compass.png)
+
 # Ejecucion PY
 
 Tener en cuenta la instalación de python y sus complementos
