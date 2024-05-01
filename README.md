@@ -24,7 +24,7 @@ Este proyecto se realizó utilizando el lenguaje de programación Python y el Mo
   ![alt text](Usuarios.png)
 
 2. **Crear la Base de datos y a su vez las colecciones**
-  ![alt text](Colleciones_en_mongodb.png)
+  ![alt text](Colleciones_en_Mongodb.png)
 
 
 # Pasos para la Ejecución
