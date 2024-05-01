@@ -62,11 +62,17 @@ except Exception as e:
 2. **Crear la Base de datos y a su vez las colecciones**
   ![alt text](Colleciones_en_Mongodb.png)
 
-  1. Ejemplo de la coleccion paises
+  1. coleccion paises
   ![alt text](Collecion_Paises.png)
 
-  2. Ejemplo de la coleccion estados
+  2.  coleccion estados
   ![alt text](Collecion_estados.png)
+
+  3. coleccion reactores
+  ![alt text](Reactores.png)
+
+  4. coleccion de las ubicaciones
+  ![alt text](Ubicacion.png)
 
 # Ejecucion PY
 
