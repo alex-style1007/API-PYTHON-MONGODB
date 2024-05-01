@@ -1,7 +1,7 @@
 # tadb_202410_ex03
 
 # Importante
-Este proyecto se realizó utilizando el lenguaje de programación Python y el Motor de Base de datos Postgres
+Este proyecto se realizó utilizando el lenguaje de programación Python y el Motor de Base de datos MongoDB
 - Con python se utilizaron librerías como FastAPI para la creación de la API, sqlalchemy para la interacción con la base de datos de manera programática y orientada a objetos (ORM).
 
 # Estructura de Carpetas del Proyecto
@@ -19,12 +19,7 @@ Este proyecto se realizó utilizando el lenguaje de programación Python y el Mo
 - **.gitignore**: Archivo que especifica qué archivos y directorios deben ser ignorados por Git durante el versionado del proyecto.
 - **.env**: Archivo que contiene variables de entorno para la configuración local del proyecto, como claves secretas, configuraciones de la base de datos, etc.
 
-- **Sobre los Datos**
-  
-  - **datos/tablas.sql**: Se describe la creación de las tablas en base al diagrama en un esquema específico.
-  - **datos/tabla_sin_normalizar.sql**: Es la creación de una tabla donde se importan los datos sin realizar ningun procesos de normalización, es decir, importamos el archivo "IDEA_Reactores_Nucleares_Investigacion.csv"
-  - **datos/abastecimiento.sql**: Son las querys que se crearon para abastecer las tablas en el diseño relacional. 
-  - **datos/IDEA_Reactores_Nucleares_Investigacion.csv**: Es la base de datos de los reactores, en esta, por facilidad y con la idea de importar la totalidad de los datos, se creó de forma manual desde el csv una columna con el id.
+
 
 # Pasos para la Ejecución
 
