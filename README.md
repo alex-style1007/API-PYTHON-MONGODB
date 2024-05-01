@@ -55,7 +55,6 @@ except Exception as e:
     print(e)
 ```
 
-
 ## Datos
 1. **Crear Uuarios**
   ![alt text](Usuarios.png)
@@ -65,11 +64,11 @@ except Exception as e:
 
   1. Ejemplo de la coleccion paises
   ![alt text](Collecion_Paises.png)
-  
+
   2. Ejemplo de la coleccion estados
   ![alt text](Collecion_estados.png)
 
-# Pasos para la Ejecución
+# Ejecucion PY
 
 Tener en cuenta la instalación de python y sus complementos
 
@@ -78,19 +77,13 @@ Tener en cuenta la instalación de python y sus complementos
 - python -m pipenv shell o pipenv shell
 
 2. Importar las siguientes librerías en el entorno virtual:
-  - pip install fastapi uvicorn sqlalchemy pydantic psycopg2
+
+  ```python
+
+  ```
   
 3. Ejecutar la app:
-  - python -m uvicorn project.app.controllers.reactor_controller:app --port 1234
-  ![alt text](image.png)
 
-  - Entrar en la dirección (local host) y agregar la extensión /docs
-  ![alt text](image-1.png)
-
-  ![alt text](image-2.png)
 
 # Resultados
 Se deja el archivo de word "Evidencias de los resultados.docx" el cual se puedes descargar y evidenciar capturas de los resultados
-
-
-
