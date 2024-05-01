@@ -4,26 +4,17 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.pool import NullPool
 import os
 
-class Session:
-    session = None
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
 
-    def __init__(self):
-        url = URL.create(
-            drivername='postgresql',
-            username=os.environ['DB_USER'],
-            password=os.environ['DB_PASSWORD'],
-            host=os.environ['DB_HOST'],
-            database=os.environ['DB_NAME']
-        )
-        self.session = self._create_session(url)
+uri = "mongodb+srv://adminReactor:Topicos@cluster0.3l35xwi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
-    def _create_session(self, url):
-        engine = create_engine(url, poolclass=NullPool)
-        metadata = MetaData()
-        metadata.reflect(bind=engine, schema='testRepository')
-        session = sessionmaker(bind=engine)
-        return session()
+# Create a new client and connect to the server
+client = MongoClient(uri, server_api=ServerApi('1'))
 
-    def __del__(self):
-        if self.session:
-            self.session.close()
+# Send a ping to confirm a successful connection
+try:
+    client.admin.command('ping')
+    print("Pinged your deployment. You successfully connected to MongoDB!")
+except Exception as e:
+    print(e)
