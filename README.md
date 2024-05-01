@@ -57,6 +57,8 @@ except Exception as e:
 
 ## Datos
 1. **Crear Uuarios**
+
+Esto se hace con el fin de mantener lo mayormente seguro el entorno de desarrollo
   ![alt text](Usuarios.png)
 
 2. **Crear la Base de datos y a su vez las colecciones**
