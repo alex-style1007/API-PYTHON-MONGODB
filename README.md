@@ -17,8 +17,11 @@ Este proyecto se realizó utilizando el lenguaje de programación Python y el Mo
   - **context.py**: Define la configuración y la gestión del contexto de la aplicación, incluida la conexión a la base de datos.
 - **README.md**: Archivo de documentación que proporciona información sobre el proyecto, cómo configurarlo, ejecutarlo y usarlo.
 - **.gitignore**: Archivo que especifica qué archivos y directorios deben ser ignorados por Git durante el versionado del proyecto.
-- **.env**: Archivo que contiene variables de entorno para la configuración local del proyecto, como claves secretas, configuraciones de la base de datos, etc.
-En este caso se almaceno una variable de entorno llamada uri que tiene la siguiente estructura
+
+## **.env**
+
+Archivo que contiene variables de entorno para la configuración local del proyecto, como claves secretas, configuraciones de la base de datos, etc.
+En este caso se almaceno una variable de entorno llamada **uri** que tiene la siguiente estructura
 
 ```python
 uri = "mongodb+srv://<username>:<password>@cluster0.3l35xwi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
