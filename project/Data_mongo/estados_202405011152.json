@@ -1,55 +1,56 @@
 {
-"estados": [
-	{
-		"id" : 1,
-		"estado" : "OPERATIONAL"
-	},
-	{
-		"id" : 2,
-		"estado" : "PERMANENT SHUTDOWN"
-	},
-	{
-		"id" : 3,
-		"estado" : "UNDER CONSTRUCTION"
-	},
-	{
-		"id" : 4,
-		"estado" : "TEMPORARY SHUTDOWN"
-	},
-	{
-		"id" : 5,
-		"estado" : "UNDER DECOMMISSIONING"
-	},
-	{
-		"id" : 6,
-		"estado" : "EXTENDED SHUTDOWN"
-	},
-	{
-		"id" : 7,
-		"estado" : "DECOMMISSIONED"
-	},
-	{
-		"id" : 8,
-		"estado" : "PLANNED"
-	},
-	{
-		"id" : 9,
-		"estado" : "A"
-	},
-	{
-		"id" : 10,
-		"estado" : "re"
-	},
-	{
-		"id" : 11,
-		"estado" : "New York"
-	},
-	{
-		"id" : 12,
-		"estado" : "string"
-	},
-	{
-		"id" : 13,
-		"estado" : "Spain"
-	}
-]}
+	"estados": [
+		{
+			"id": 1,
+			"estado": "OPERATIONAL"
+		},
+		{
+			"id": 2,
+			"estado": "PERMANENT SHUTDOWN"
+		},
+		{
+			"id": 3,
+			"estado": "UNDER CONSTRUCTION"
+		},
+		{
+			"id": 4,
+			"estado": "TEMPORARY SHUTDOWN"
+		},
+		{
+			"id": 5,
+			"estado": "UNDER DECOMMISSIONING"
+		},
+		{
+			"id": 6,
+			"estado": "EXTENDED SHUTDOWN"
+		},
+		{
+			"id": 7,
+			"estado": "DECOMMISSIONED"
+		},
+		{
+			"id": 8,
+			"estado": "PLANNED"
+		},
+		{
+			"id": 9,
+			"estado": "A"
+		},
+		{
+			"id": 10,
+			"estado": "re"
+		},
+		{
+			"id": 11,
+			"estado": "New York"
+		},
+		{
+			"id": 12,
+			"estado": "string"
+		},
+		{
+			"id": 13,
+			"estado": "Spain"
+		}
+	]
+}
