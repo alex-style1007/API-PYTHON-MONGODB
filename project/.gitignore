@@ -38,6 +38,6 @@ MANIFEST
 # Carpetas específicas a tu entorno o herramientas
 .idea/
 .vscode/
-
+.vs
 #Pipenv
 Pipfile
