@@ -98,6 +98,219 @@ db.createCollection("tipos_reactor")
 db.createCollection("reactores")
 
 ```
+Ahora para realizar las validaciones
+
+1. **estados**
+
+```java
+{
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": ["_id", "estados"],
+      "properties": {
+        "_id": {
+          "bsonType": "objectId",
+          "description": "Identificador único del documento"
+        },
+        "estados": {
+          "bsonType": "array",
+          "minItems": 1,
+          "items": {
+            "bsonType": "object",
+            "required": ["id", "estado"],
+            "properties": {
+              "id": {
+                "bsonType": "int",
+                "description": "ID del estado"
+              },
+              "estado": {
+                "bsonType": "string",
+                "description": "Descripción del estado"
+              }
+            }
+          },
+          "uniqueItems": true
+        }
+      }
+    }
+  }
+  
+```
+2. **paises**
+
+```java
+{
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": ["_id", "paises"],
+      "properties": {
+        "_id": {
+          "bsonType": "objectId",
+          "description": "Identificador único del documento"
+        },
+        "paises": {
+          "bsonType": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "bsonType": "object",
+            "required": ["id", "pais"],
+            "properties": {
+              "id": {
+                "bsonType": "int",
+                "description": "ID del país"
+              },
+              "pais": {
+                "bsonType": "string",
+                "description": "Nombre del país"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+```
+3. **reactores**
+
+```java
+{
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": ["_id", "reactores"],
+      "properties": {
+        "_id": {
+          "bsonType": "objectId",
+          "description": "Identificador único del documento"
+        },
+        "reactores": {
+          "bsonType": "array",
+          "minItems": 1,
+          "items": {
+            "bsonType": "object",
+            "required": ["id", "nombre", "potencia_termica", "primera_fecha_reaccion", "id_tipo_reactor", "id_ubicacion", "id_estado"],
+            "properties": {
+              "id": {
+                "bsonType": "int",
+                "description": "ID del reactor"
+              },
+              "nombre": {
+                "bsonType": "string",
+                "description": "Nombre del reactor"
+              },
+              "potencia_termica": {
+                "bsonType": "int",
+                "minimum": 0,
+                "description": "Potencia térmica del reactor"
+              },
+              "primera_fecha_reaccion": {
+                "bsonType": "date",
+                "description": "Fecha de la primera reacción del reactor"
+              },
+              "id_tipo_reactor": {
+                "bsonType": "int",
+                "description": "ID del tipo de reactor"
+              },
+              "id_ubicacion": {
+                "bsonType": "int",
+                "description": "ID de la ubicación del reactor"
+              },
+              "id_estado": {
+                "bsonType": "int",
+                "description": "ID del estado del reactor"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+```
+4. **tipos_reactor**
+
+```java
+{
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": ["_id", "tipos_reactor"],
+      "properties": {
+        "_id": {
+          "bsonType": "objectId",
+          "description": "Identificador único del documento"
+        },
+        "tipos_reactor": {
+          "bsonType": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "bsonType": "object",
+            "required": ["id", "tipo"],
+            "properties": {
+              "id": {
+                "bsonType": "int",
+                "description": "ID del tipo de reactor"
+              },
+              "tipo": {
+                "bsonType": "string",
+                "description": "Nombre del tipo de reactor"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+```
+5. **Ubicacion**
+
+```java
+{
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": [
+        "_id",
+        "ubicacion"
+      ],
+      "properties": {
+        "_id": {
+          "bsonType": "objectId",
+          "description": "Identificador único para el documento"
+        },
+        "ubicacion": {
+          "bsonType": "array",
+          "minItems": 1,
+          "items": {
+            "bsonType": "object",
+            "required": [
+              "id",
+              "ciudad",
+              "id_pais"
+            ],
+            "properties": {
+              "id": {
+                "bsonType": "int",
+                "description": "ID de la ubicación"
+              },
+              "ciudad": {
+                "bsonType": "string",
+                "description": "Nombre de la ciudad"
+              },
+              "id_pais": {
+                "bsonType": "int",
+                "description": "ID del país"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+```
 
 
 # Ejecucion PY
