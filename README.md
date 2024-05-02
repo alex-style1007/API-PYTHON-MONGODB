@@ -86,7 +86,7 @@ Despues de modificar el string proporcionado con el **admin** y **pasword** habi
 
 En este apartado se dara el codigo para replicar lo deseado
 
-```json
+```java
 // Conexión a MongoDB
 use Reactores_bd
 
