@@ -1,0 +1,32 @@
+{
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": ["_id", "tipos_reactor"],
+      "properties": {
+        "_id": {
+          "bsonType": "objectId",
+          "description": "Identificador único del documento"
+        },
+        "tipos_reactor": {
+          "bsonType": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "bsonType": "object",
+            "required": ["id", "tipo"],
+            "properties": {
+              "id": {
+                "bsonType": "int",
+                "description": "ID del tipo de reactor"
+              },
+              "tipo": {
+                "bsonType": "string",
+                "description": "Nombre del tipo de reactor"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
