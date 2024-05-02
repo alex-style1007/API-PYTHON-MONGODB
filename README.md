@@ -82,6 +82,24 @@ Para conectarse localmente, seleccionamos la opcion Compass que se habilita al d
 Despues de modificar el string proporcionado con el **admin** y **pasword** habilitados se ve de la siguiente manera al conectarse.
   ![alt text](Compass.png)
 
+# Creacion de la coleccion y validaciones
+
+En este apartado se dara el codigo para replicar lo deseado
+
+```json
+// Conexión a MongoDB
+use Reactores_bd
+
+// Crear las colecciones correspondientes
+db.createCollection("estados")
+db.createCollection("paises")
+db.createCollection("ubicacion")
+db.createCollection("tipos_reactor")
+db.createCollection("reactores")
+
+```
+
+
 # Ejecucion PY
 
 Tener en cuenta la instalación de python y sus complementos
