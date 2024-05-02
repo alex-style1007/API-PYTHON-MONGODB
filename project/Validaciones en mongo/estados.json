@@ -1,0 +1,32 @@
+{
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": ["_id", "estados"],
+      "properties": {
+        "_id": {
+          "bsonType": "objectId",
+          "description": "Identificador único del documento"
+        },
+        "estados": {
+          "bsonType": "array",
+          "minItems": 1,
+          "items": {
+            "bsonType": "object",
+            "required": ["id", "estado"],
+            "properties": {
+              "id": {
+                "bsonType": "int",
+                "description": "ID del estado"
+              },
+              "estado": {
+                "bsonType": "string",
+                "description": "Descripción del estado"
+              }
+            }
+          },
+          "uniqueItems": true
+        }
+      }
+    }
+  }
+  
