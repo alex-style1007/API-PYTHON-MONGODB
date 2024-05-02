@@ -1,41 +1,42 @@
 {
-    $jsonSchema: {
-      bsonType: 'object',
-      required: [
-        '_id',
-        'ubicacion'
-        ],
-      properties: {
-        _id: {
-          bsonType: 'objectId',
-          description: 'Identificador único para el documento'
-            },
-        ubicacion: {
-          bsonType: 'array',
-          minItems: 1,
-          items: {
-            bsonType: 'object',
-            required: [
-              'id',
-              'ciudad',
-              'id_pais'
-                    ],
-            properties: {
-              id: {
-                bsonType: 'int',
-                description: 'ID de la ubicación'
-                        },
-              ciudad: {
-                bsonType: 'string',
-                description: 'Nombre de la ciudad'
-                        },
-              id_pais: {
-                bsonType: 'int',
-                description: 'ID del país'
-                        }
-                    }
-                }
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": [
+        "_id",
+        "ubicacion"
+      ],
+      "properties": {
+        "_id": {
+          "bsonType": "objectId",
+          "description": "Identificador único para el documento"
+        },
+        "ubicacion": {
+          "bsonType": "array",
+          "minItems": 1,
+          "items": {
+            "bsonType": "object",
+            "required": [
+              "id",
+              "ciudad",
+              "id_pais"
+            ],
+            "properties": {
+              "id": {
+                "bsonType": "int",
+                "description": "ID de la ubicación"
+              },
+              "ciudad": {
+                "bsonType": "string",
+                "description": "Nombre de la ciudad"
+              },
+              "id_pais": {
+                "bsonType": "int",
+                "description": "ID del país"
+              }
             }
+          }
         }
+      }
     }
-}
+  }
+  
