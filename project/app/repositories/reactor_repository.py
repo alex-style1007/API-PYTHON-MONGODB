@@ -1,11 +1,11 @@
-from project.app.context.db_connection import Session
+from project.app.context.db_connection import MongoDB
 from project.app.models.reactor import Reactor, Ubicacion, Estado, TipoReactor, Pais
+from bson.objectid import ObjectId
 
-
-class ReactorRelationalRepository:
+class ReactorNoRelationalRepository:
 
     def __init__(self):
-        self.session = Session().session
+        self.mongodb = MongoDB()
 
     # 1. Obtener reactores registrados
     def get_all_reactors(self):
@@ -25,7 +25,6 @@ class ReactorRelationalRepository:
             )
         return response
 
-
     # 2. Obtener un reactor por Id
     def get_reactor_by_id(self, id: int):
         full_query = self.get_full_query()
@@ -39,45 +38,44 @@ class ReactorRelationalRepository:
                 'tipo': result[4]
             }
         return {'message': f'El reactor con id {id} no existe'}
-    
 
-    # 3. Crear un nuevo reactor
+    # 3. Crear un nuevo reactor. #LISTO
     def create_reactor(self, reactor: dict):
-        reactor_item = self.get_reactor_foreign_keys(reactor)
-        reactor_object = Reactor(**reactor_item)
-        self.session.add(reactor_object)
-        self.session.commit()
+        reactor_item = self.get_reactor_objectid_references(reactor)
+        collection = self.mongodb._get_collection('reactoresdb', 'reactores')
+        collection.insert_one(reactor_item)
         return {'message': 'El reactor ha sido insertado con éxito'}
     
-    # 4. Actualizar un reactor existente.
-    def update_reactor(self, reactor: dict, reactor_id: int):
-        reactor_item = self.get_reactor_foreign_keys(reactor)
-        old_reactor = self.session.query(Reactor).filter(Reactor.id == reactor_id).first()
+    # 4. Actualizar un reactor existente. #LISTO
+    def update_reactor(self, reactor: dict, reactor_id: str):
+        reactor_item = self.get_reactor_objectid_references(reactor)
+        collection = self.mongodb._get_collection('reactoresdb', 'reactores')
+        old_reactor = collection.find_one({'_id': ObjectId(reactor_id)})
         if old_reactor is None:
             return {'message': f'El reactor con id {reactor_id} no existe'} 
-        for key, value in reactor_item.items():
-            setattr(old_reactor, key, value)
-        self.session.commit()
+        collection.update_one({'_id': ObjectId(reactor_id)}, {'$set': reactor_item})
         return {'message': f'el reactor con id {reactor_id} fue actualizado con éxito',
                 'reactor': {"id":reactor_id, **reactor}}
     
-    # 5. Eliminar un reactor existente
-    def delete_reactor_by_id(self, id: int):
-        reactor = self.session.query(Reactor).filter(Reactor.id == id).first()
+    # 5. Eliminar un reactor existente. #LISTO
+    def delete_reactor_by_id(self, id: str):
+        collection = self.mongodb._get_collection('reactoresdb', 'reactores')
+        reactor = collection.find_one({'_id': ObjectId(id)})
         if reactor is not None:
-            self.session.delete(reactor)
-            self.session.commit()
+            collection.delete_one({'_id': ObjectId(id)})
             return {'message': f'El reactor con id {id} fue eliminado con éxito'}
         return {'message': f'El reactor con id {id} no existe'}
     
-    # 6. Obtener tipos de reactores registrados
+    # 6. Obtener tipos de reactores registrados #LISTO
     def get_all_reactor_types(self):
-        results = self.session.query(TipoReactor).all()
+        collection = self.mongodb._get_collection('reactoresdb', 'tipos_reactor')
+        results = collection.find()
         response = []
-        for result in results:
-            response.append(self.model_as_dict(result))
+        for item in results:
+            item['id'] = str(item['_id'])
+            response.append(item)
         return response
-    
+
     # 7. Obtener tipo de reactor por Id. Respuesta incluye todos los reactores asociados al tipo.
     def get_reactors_with_same_reactor_type_by_id(self, reactor_id:int):
         reactor = self.session.query(TipoReactor.id).join(
@@ -102,17 +100,16 @@ class ReactorRelationalRepository:
             )
         return response
     
-    # 8. Obtener Ubicaciones Registradas
+    # 8. Obtener Ubicaciones Registradas #LISTO
     def get_all_locations(self):
-        results = self.session.query(Ubicacion.ciudad, Pais.pais).join(Pais, Ubicacion.id_pais == Pais.id, isouter=True).all()
+        collection = self.mongodb._get_collection('reactoresdb', 'ubicaciones')
+        results = collection.find()
         response = []
-        for result in results:
-            response.append(
-                {
-                    'ciudad': result[0],
-                    'pais': result[1]
-                }
-            )
+        for item in results:
+            if 'ciudad' not in item.keys():
+                item['ciudad'] = 'Sin asignar'
+            item['id'] = str(item['_id'])
+            response.append(item)
         return response
     
     # 9. Obtener Ubicación por Id.
@@ -162,38 +159,27 @@ class ReactorRelationalRepository:
     
 
     # Funciones Auxiliares
-    def get_reactor_foreign_keys(self, reactor: dict):
-        pais = self.session.query(Pais).filter(Pais.pais == reactor['pais']).first()
-        pais_obj = Pais(pais=reactor['pais'])
-        estado_obj = Estado(estado=reactor['estado'])
-        tipo_obj = TipoReactor(tipo=reactor['tipo'])
-        if pais is None:
-            self.session.add(pais_obj)
-            self.session.commit()
-            pais = pais_obj
-        ubicacion = self.session.query(Ubicacion).filter(Ubicacion.ciudad==reactor['ciudad'], Ubicacion.id_pais == pais.id).first()
-        ubicacion_obj = Ubicacion(ciudad=reactor['ciudad'], id_pais=pais.id if pais is not None else pais_obj.id)
-        if ubicacion is None:
-            self.session.add(ubicacion_obj)
-            self.session.commit()
-            ubicacion = ubicacion_obj
-        estado = self.session.query(Estado).filter(Estado.estado == reactor['estado']).first()
-        if estado is None:
-            self.session.add(estado_obj)
-            self.session.commit()
-            estado = estado_obj
-        tipo = self.session.query(TipoReactor).filter(TipoReactor.tipo == reactor['tipo']).first()
-        if tipo is None:
-            self.session.add(tipo_obj)
-            self.session.commit()
-            tipo = tipo_obj
+    def get_reactor_objectid_references(self, reactor: dict):
+        locations_collection = self.mongodb._get_collection('reactoresdb', 'ubicaciones')
+        reactor_types_collection = self.mongodb._get_collection('reactoresdb', 'tipos_reactor')
+        reactor_type = reactor_types_collection.find_one({'tipo': reactor['tipo']})
+        location = locations_collection.find_one({'ciudad': reactor['ciudad'], 'pais': reactor['pais']})
+        if reactor_type is None:
+            new_reactor_type = {'tipo': reactor['tipo']}
+            reactor_types_collection.insert_one(new_reactor_type)
+            reactor_type = new_reactor_type
+        if location is None:
+            new_location = {'ciudad': reactor['ciudad'], 'pais': reactor['pais']}
+            locations_collection.insert_one(new_location)
+            location = new_location
         reactor_item = {
             'nombre': reactor['nombre'],
             "potencia_termica": reactor['potencia_termica'],
             "primera_fecha_reaccion": reactor['primera_fecha_reaccion'],
-            "id_tipo_reactor": tipo.id,
-            "id_ubicacion": ubicacion.id,
-            "id_estado": estado.id
+            "estado": reactor['estado'],
+            "tipo_reactor_id": reactor_type['_id'],
+            "ubicacion_id": location['_id']
+
         }
         return reactor_item
     

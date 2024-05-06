@@ -1,0 +1,1295 @@
+[
+	{
+		"ciudad" : "Aachen",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Aberdeen, MD",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Abuja",
+		"pais" : "Nigeria"
+	},
+	{
+		"ciudad" : "Accra",
+		"pais" : "Ghana"
+	},
+	{
+		"ciudad" : "Aiken, SC",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Aix-en-Provence",
+		"pais" : "France"
+	},
+	{
+		"ciudad" : "Albuquerque, NM",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Aldermaston",
+		"pais" : "United Kingdom"
+	},
+	{
+		"ciudad" : "Algiers",
+		"pais" : "Algeria"
+	},
+	{
+		"ciudad" : "Almaty",
+		"pais" : "Kazakhstan"
+	},
+	{
+		"ciudad" : "Ames, IA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Amman",
+		"pais" : "Jordan"
+	},
+	{
+		"ciudad" : "Ann Arbor, MI",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Arnhem",
+		"pais" : "Netherlands, Kingdom of the"
+	},
+	{
+		"ciudad" : "Athens",
+		"pais" : "Greece"
+	},
+	{
+		"ciudad" : "Atlanta, GA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Austin, TX",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Baghdad",
+		"pais" : "Iraq"
+	},
+	{
+		"ciudad" : "Bagnols-sur-Cèze",
+		"pais" : "France"
+	},
+	{
+		"ciudad" : "Ballston Spa, NY",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Baltimore",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Bandung",
+		"pais" : "Indonesia"
+	},
+	{
+		"ciudad" : "Bangkok",
+		"pais" : "Thailand"
+	},
+	{
+		"ciudad" : "Barcelona",
+		"pais" : "Spain"
+	},
+	{
+		"ciudad" : "Basel",
+		"pais" : "Switzerland"
+	},
+	{
+		"ciudad" : "Baton Rouge, LA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Beijing",
+		"pais" : "China"
+	},
+	{
+		"ciudad" : "Belgrade",
+		"pais" : "Serbia"
+	},
+	{
+		"ciudad" : "Belo Horizonte",
+		"pais" : "Brazil"
+	},
+	{
+		"ciudad" : "Berkeley",
+		"pais" : "United Kingdom"
+	},
+	{
+		"ciudad" : "Berkeley, CA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Berlin",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Bethesda, MD",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Bilbao",
+		"pais" : "Spain"
+	},
+	{
+		"ciudad" : "Billingham",
+		"pais" : "United Kingdom"
+	},
+	{
+		"ciudad" : "Blacksburg, VA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Bogota",
+		"pais" : "Colombia"
+	},
+	{
+		"ciudad" : "Bologna",
+		"pais" : "Italy"
+	},
+	{
+		"ciudad" : "Boston",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Braunschweig",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Bremen",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Bucharest",
+		"pais" : "Romania"
+	},
+	{
+		"ciudad" : "Budapest",
+		"pais" : "Hungary"
+	},
+	{
+		"ciudad" : "Buenos Aires",
+		"pais" : "Argentina"
+	},
+	{
+		"ciudad" : "Buffalo, NY",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Busan",
+		"pais" : "Korea, Republic of"
+	},
+	{
+		"ciudad" : "Cadarache",
+		"pais" : "France"
+	},
+	{
+		"ciudad" : "Cairo",
+		"pais" : "Egypt"
+	},
+	{
+		"ciudad" : "Carhaix-Plouguer",
+		"pais" : "France"
+	},
+	{
+		"ciudad" : "Chalk River",
+		"pais" : "Canada"
+	},
+	{
+		"ciudad" : "Chalk River, ON",
+		"pais" : "Canada"
+	},
+	{
+		"ciudad" : "Charleston, SC",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Charlottesville, VA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Chelyabinsk",
+		"pais" : "Russian Federation"
+	},
+	{
+		"ciudad" : "Chengdu",
+		"pais" : "China"
+	},
+	{
+		"ciudad" : "Chicago, IL",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Clearfield, PA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Cleveland, OH",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "College Park, MD",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "College Station, TX",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Columbia, MO",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Columbus, OH",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Córdoba",
+		"pais" : "Argentina"
+	},
+	{
+		"ciudad" : "Corvallis, OR",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Da Lat",
+		"pais" : "Viet Nam"
+	},
+	{
+		"ciudad" : "Daejeon",
+		"pais" : "Korea, Republic of"
+	},
+	{
+		"ciudad" : "Dalat",
+		"pais" : "Viet Nam"
+	},
+	{
+		"ciudad" : "Damascus",
+		"pais" : "Syrian Arab Republic"
+	},
+	{
+		"ciudad" : "Darmstadt",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Dawsonville, GA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Delft",
+		"pais" : "Netherlands, Kingdom of the"
+	},
+	{
+		"ciudad" : "Denver",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Derby",
+		"pais" : "United Kingdom"
+	},
+	{
+		"ciudad" : "Dhaka",
+		"pais" : "Bangladesh"
+	},
+	{
+		"ciudad" : "Didcot",
+		"pais" : "United Kingdom"
+	},
+	{
+		"ciudad" : "Dijon",
+		"pais" : "France"
+	},
+	{
+		"ciudad" : "Dimitrovgrad",
+		"pais" : "Russian Federation"
+	},
+	{
+		"ciudad" : "Djelfa",
+		"pais" : "Algeria"
+	},
+	{
+		"ciudad" : "Dorchester",
+		"pais" : "United Kingdom"
+	},
+	{
+		"ciudad" : "Dresden",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Dresden \/ Rossendorf",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Dresden\/Rossendorf",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Dubna",
+		"pais" : "Russian Federation"
+	},
+	{
+		"ciudad" : "Dushanbe",
+		"pais" : "Tajikistan"
+	},
+	{
+		"ciudad" : "East Lansing, MI",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Edmonton",
+		"pais" : "Canada"
+	},
+	{
+		"ciudad" : "Eindhoven",
+		"pais" : "Netherlands, Kingdom of the"
+	},
+	{
+		"ciudad" : "Electrostal",
+		"pais" : "Russian Federation"
+	},
+	{
+		"ciudad" : "Elektrostal",
+		"pais" : "Russian Federation"
+	},
+	{
+		"ciudad" : "Espoo",
+		"pais" : "Finland"
+	},
+	{
+		"ciudad" : "Ezeiza",
+		"pais" : "Argentina"
+	},
+	{
+		"ciudad" : "Fontenay-aux-Roses",
+		"pais" : "France"
+	},
+	{
+		"ciudad" : "Fort Worth, TX",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Frankfurt am Main",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Furtwangen im Schwarzwald",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Gainesville, FL",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Gaithersburg, Maryland",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Garching \/ Munich",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Garching bei München",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Gatchina",
+		"pais" : "Russian Federation"
+	},
+	{
+		"ciudad" : "Geesthacht",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Geesthact",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Geneva",
+		"pais" : "Switzerland"
+	},
+	{
+		"ciudad" : "Ghent",
+		"pais" : "Belgium"
+	},
+	{
+		"ciudad" : "Gif-sur-Yvette",
+		"pais" : "France"
+	},
+	{
+		"ciudad" : "Glasgow",
+		"pais" : "United Kingdom"
+	},
+	{
+		"ciudad" : "Golden, CO",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Graz",
+		"pais" : "Austria"
+	},
+	{
+		"ciudad" : "Grenoble",
+		"pais" : "France"
+	},
+	{
+		"ciudad" : "Halden",
+		"pais" : "Norway"
+	},
+	{
+		"ciudad" : "Halifax",
+		"pais" : "Canada"
+	},
+	{
+		"ciudad" : "Hamburg",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Hamilton, ON",
+		"pais" : "Canada"
+	},
+	{
+		"ciudad" : "Hannover",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Harwell",
+		"pais" : "United Kingdom"
+	},
+	{
+		"ciudad" : "Hawthorne, CA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Heidelberg",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Helsinki",
+		"pais" : "Finland"
+	},
+	{
+		"ciudad" : "Houston, TX",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Hsinchu City",
+		"pais" : "Taiwan, China"
+	},
+	{
+		"ciudad" : "Husinec-Rez",
+		"pais" : "Czech Republic"
+	},
+	{
+		"ciudad" : "Idaho Falls",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Idaho Falls, ID",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Iperó",
+		"pais" : "Brazil"
+	},
+	{
+		"ciudad" : "Irvine, CA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Isfahan",
+		"pais" : "Iran, Islamic Republic of"
+	},
+	{
+		"ciudad" : "Islamabad",
+		"pais" : "Pakistan"
+	},
+	{
+		"ciudad" : "Ispra",
+		"pais" : "Italy"
+	},
+	{
+		"ciudad" : "Istanbul",
+		"pais" : "Türkiye"
+	},
+	{
+		"ciudad" : "Ithaca, NY",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Jinan",
+		"pais" : "China"
+	},
+	{
+		"ciudad" : "Jülich",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Kajang",
+		"pais" : "Malaysia"
+	},
+	{
+		"ciudad" : "Kalpakkam",
+		"pais" : "India"
+	},
+	{
+		"ciudad" : "Karlsruhe",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Karlstein am Main",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Kawasaki",
+		"pais" : "Japan"
+	},
+	{
+		"ciudad" : "Kharkov",
+		"pais" : "Ukraine"
+	},
+	{
+		"ciudad" : "Kiel",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Kiev",
+		"pais" : "Ukraine"
+	},
+	{
+		"ciudad" : "Kingston, ON",
+		"pais" : "Canada"
+	},
+	{
+		"ciudad" : "Kinshasa",
+		"pais" : "Democratic Republic of the Congo"
+	},
+	{
+		"ciudad" : "Kjeller",
+		"pais" : "Norway"
+	},
+	{
+		"ciudad" : "Kurchatov",
+		"pais" : "Kazakhstan"
+	},
+	{
+		"ciudad" : "La Marquesa Ocoyoacac",
+		"pais" : "Mexico"
+	},
+	{
+		"ciudad" : "Laramie, WY",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Las Cruces, NM",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Las Vegas, NV",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Lausanne",
+		"pais" : "Switzerland"
+	},
+	{
+		"ciudad" : "Lawrence, KS",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Lemont, IL",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Lima",
+		"pais" : "Peru"
+	},
+	{
+		"ciudad" : "Lisbon",
+		"pais" : "Portugal"
+	},
+	{
+		"ciudad" : "Livermore, CA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Ljubljana",
+		"pais" : "Slovenia"
+	},
+	{
+		"ciudad" : "London",
+		"pais" : "United Kingdom"
+	},
+	{
+		"ciudad" : "Los Alamos, NM",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Los Angeles",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Lowell, MA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Lucas Heights, NSW",
+		"pais" : "Australia"
+	},
+	{
+		"ciudad" : "Lynchburg, VA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Madison, WI",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Madrid",
+		"pais" : "Spain"
+	},
+	{
+		"ciudad" : "Mainz",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Manhattan, KN",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Marcoule",
+		"pais" : "France"
+	},
+	{
+		"ciudad" : "Mayagüez, Puerto Rico",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Memphis, TN",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Mexico City",
+		"pais" : "Mexico"
+	},
+	{
+		"ciudad" : "Mianyang",
+		"pais" : "China"
+	},
+	{
+		"ciudad" : "Middletown, CT",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Midland, MI",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Milan",
+		"pais" : "Italy"
+	},
+	{
+		"ciudad" : "Milwaukee, WI",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Minsk",
+		"pais" : "Belarus"
+	},
+	{
+		"ciudad" : "Mol",
+		"pais" : "Belgium"
+	},
+	{
+		"ciudad" : "Mona",
+		"pais" : "Jamaica"
+	},
+	{
+		"ciudad" : "Montevideo",
+		"pais" : "Uruguay"
+	},
+	{
+		"ciudad" : "Montréal",
+		"pais" : "Canada"
+	},
+	{
+		"ciudad" : "Montréal, QC",
+		"pais" : "Canada"
+	},
+	{
+		"ciudad" : "Morgantown, WV",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Moscow",
+		"pais" : "Russian Federation"
+	},
+	{
+		"ciudad" : "Mount Vernon, VA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Mountain View, CA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Mumbai",
+		"pais" : "India"
+	},
+	{
+		"ciudad" : "Munich",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Nakorn Ratchasima",
+		"pais" : "Thailand"
+	},
+	{
+		"ciudad" : "Narragansett, RI",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "New Stanton, PA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "New York, NY",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Newark, DE",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Nizhny Novgorod",
+		"pais" : "Russian Federation"
+	},
+	{
+		"ciudad" : "Norilsk",
+		"pais" : "Russian Federation"
+	},
+	{
+		"ciudad" : "Norman, OK",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Nyköping",
+		"pais" : "Sweden"
+	},
+	{
+		"ciudad" : "Nyongbyon",
+		"pais" : "Dem. P.R. of Korea"
+	},
+	{
+		"ciudad" : "Oak Ridge, TN",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Oarai",
+		"pais" : "Japan"
+	},
+	{
+		"ciudad" : "Obninsk",
+		"pais" : "Russian Federation"
+	},
+	{
+		"ciudad" : "Omaha, NE",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Osaka",
+		"pais" : "Japan"
+	},
+	{
+		"ciudad" : "Ottawa",
+		"pais" : "Canada"
+	},
+	{
+		"ciudad" : "Otwock",
+		"pais" : "Poland"
+	},
+	{
+		"ciudad" : "Padua",
+		"pais" : "Italy"
+	},
+	{
+		"ciudad" : "Palermo",
+		"pais" : "Italy"
+	},
+	{
+		"ciudad" : "Palo Alto, CA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Pavia",
+		"pais" : "Italy"
+	},
+	{
+		"ciudad" : "Petten",
+		"pais" : "Netherlands, Kingdom of the"
+	},
+	{
+		"ciudad" : "Pinawa, MB",
+		"pais" : "Canada"
+	},
+	{
+		"ciudad" : "Pisa",
+		"pais" : "Italy"
+	},
+	{
+		"ciudad" : "Pitesti",
+		"pais" : "Romania"
+	},
+	{
+		"ciudad" : "Plainsboro, NJ",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Pleasanton, CA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Plzen",
+		"pais" : "Czech Republic"
+	},
+	{
+		"ciudad" : "Pocatello, ID",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Podolsk",
+		"pais" : "Russian Federation"
+	},
+	{
+		"ciudad" : "Portland, OR",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Poughkeepsie, NY",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Prague",
+		"pais" : "Czech Republic"
+	},
+	{
+		"ciudad" : "Pretoria",
+		"pais" : "South Africa"
+	},
+	{
+		"ciudad" : "Provo, UT",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Pullman, WA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Quezon City",
+		"pais" : "Philippines"
+	},
+	{
+		"ciudad" : "Rabat",
+		"pais" : "Morocco"
+	},
+	{
+		"ciudad" : "Raleigh",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Rež",
+		"pais" : "Czech Republic"
+	},
+	{
+		"ciudad" : "Richland, WA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Rio De Janeiro",
+		"pais" : "Brazil"
+	},
+	{
+		"ciudad" : "Riyadh",
+		"pais" : "Saudi Arabia"
+	},
+	{
+		"ciudad" : "Rolla, MO",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Rome",
+		"pais" : "Italy"
+	},
+	{
+		"ciudad" : "Rosario",
+		"pais" : "Argentina"
+	},
+	{
+		"ciudad" : "Roskilde",
+		"pais" : "Denmark"
+	},
+	{
+		"ciudad" : "Saclay",
+		"pais" : "France"
+	},
+	{
+		"ciudad" : "Sacramento, CA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Saint-Paul-les-Durance",
+		"pais" : "France"
+	},
+	{
+		"ciudad" : "Saint-Paul-lès-Durance",
+		"pais" : "France"
+	},
+	{
+		"ciudad" : "Saint-Petersburg",
+		"pais" : "Russian Federation"
+	},
+	{
+		"ciudad" : "Saitama",
+		"pais" : "Japan"
+	},
+	{
+		"ciudad" : "Salaspils",
+		"pais" : "Latvia"
+	},
+	{
+		"ciudad" : "Salt Lake City, UT",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Saluggia",
+		"pais" : "Italy"
+	},
+	{
+		"ciudad" : "San Antonio de los Altos",
+		"pais" : "Venezuela, Bolivarian Republic of"
+	},
+	{
+		"ciudad" : "San Carlos de Bariloche",
+		"pais" : "Argentina"
+	},
+	{
+		"ciudad" : "San Diego",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "San Diego, CA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "San Luis Obispo, CA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "San Ramon, CA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Sandusky, OH",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Santa Barbara, CA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Santa Susana, CA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Santiago",
+		"pais" : "Chile"
+	},
+	{
+		"ciudad" : "Sao Paulo",
+		"pais" : "Brazil"
+	},
+	{
+		"ciudad" : "Sarov",
+		"pais" : "Russian Federation"
+	},
+	{
+		"ciudad" : "Saskatoon",
+		"pais" : "Canada"
+	},
+	{
+		"ciudad" : "Saxton, PA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Schagen",
+		"pais" : "Netherlands, Kingdom of the"
+	},
+	{
+		"ciudad" : "Schenectady, NY",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Seascale",
+		"pais" : "United Kingdom"
+	},
+	{
+		"ciudad" : "Seattle",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Seoul",
+		"pais" : "Korea, Republic of"
+	},
+	{
+		"ciudad" : "Serpong",
+		"pais" : "Indonesia"
+	},
+	{
+		"ciudad" : "Sevastopol",
+		"pais" : "Ukraine"
+	},
+	{
+		"ciudad" : "Shanghai",
+		"pais" : "China"
+	},
+	{
+		"ciudad" : "Shenzhen",
+		"pais" : "China"
+	},
+	{
+		"ciudad" : "Silver Spring, MD",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Simi Valley, CA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Snezhinsk",
+		"pais" : "Russian Federation"
+	},
+	{
+		"ciudad" : "Sofia",
+		"pais" : "Bulgaria"
+	},
+	{
+		"ciudad" : "St. Petersburg",
+		"pais" : "Russian Federation"
+	},
+	{
+		"ciudad" : "Starkville, MS",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "State College, PA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Stockholm",
+		"pais" : "Sweden"
+	},
+	{
+		"ciudad" : "Strasbourg",
+		"pais" : "France"
+	},
+	{
+		"ciudad" : "Stuttgart",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Sydney",
+		"pais" : "Australia"
+	},
+	{
+		"ciudad" : "Tajoura",
+		"pais" : "Libya"
+	},
+	{
+		"ciudad" : "Taoyuan City",
+		"pais" : "Taiwan, China"
+	},
+	{
+		"ciudad" : "Tashkent",
+		"pais" : "Uzbekistan"
+	},
+	{
+		"ciudad" : "Tbilisi",
+		"pais" : "Georgia"
+	},
+	{
+		"ciudad" : "Tehran",
+		"pais" : "Iran, Islamic Republic of"
+	},
+	{
+		"ciudad" : "Thessaloniki",
+		"pais" : "Greece"
+	},
+	{
+		"ciudad" : "Thurso",
+		"pais" : "United Kingdom"
+	},
+	{
+		"ciudad" : "Tokai",
+		"pais" : "Japan"
+	},
+	{
+		"ciudad" : "Tokai-mura",
+		"pais" : "Japan"
+	},
+	{
+		"ciudad" : "Tokai-Mura",
+		"pais" : "Japan"
+	},
+	{
+		"ciudad" : "Tokai Mura",
+		"pais" : "Japan"
+	},
+	{
+		"ciudad" : "Tokyo",
+		"pais" : "Japan"
+	},
+	{
+		"ciudad" : "Tomsk",
+		"pais" : "Russian Federation"
+	},
+	{
+		"ciudad" : "Toronto, ON",
+		"pais" : "Canada"
+	},
+	{
+		"ciudad" : "Tucson, AZ",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Tuskegee, AL",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Tuxedo, NY",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Ulm",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Upton, NY",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Urbana, IL",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Vienna",
+		"pais" : "Austria"
+	},
+	{
+		"ciudad" : "Villigen",
+		"pais" : "Switzerland"
+	},
+	{
+		"ciudad" : "Vinca",
+		"pais" : "Serbia"
+	},
+	{
+		"ciudad" : "Visakhapatnam",
+		"pais" : "India"
+	},
+	{
+		"ciudad" : "Wageningen",
+		"pais" : "Netherlands, Kingdom of the"
+	},
+	{
+		"ciudad" : "Warrington",
+		"pais" : "United Kingdom"
+	},
+	{
+		"ciudad" : "Washington, D.C.",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Washington, DC",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Watertown, MA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "West Fork, AR",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "West Lafayette, IN",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "West Mifflin, PA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Windsor, CT",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Worcester, MA",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Würenlingen",
+		"pais" : "Switzerland"
+	},
+	{
+		"ciudad" : "Yavne",
+		"pais" : "Israel"
+	},
+	{
+		"ciudad" : "Yogyakarta",
+		"pais" : "Indonesia"
+	},
+	{
+		"ciudad" : "Yokosuka",
+		"pais" : "Japan"
+	},
+	{
+		"ciudad" : "Yongin",
+		"pais" : "Korea, Republic of"
+	},
+	{
+		"ciudad" : "Zacatecas",
+		"pais" : "Mexico"
+	},
+	{
+		"ciudad" : "Zarechniy",
+		"pais" : "Russian Federation"
+	},
+	{
+		"ciudad" : "Zaria",
+		"pais" : "Nigeria"
+	},
+	{
+		"ciudad" : "Zion, IL",
+		"pais" : "United States of America"
+	},
+	{
+		"ciudad" : "Zittau",
+		"pais" : "Germany"
+	},
+	{
+		"ciudad" : "Zurich",
+		"pais" : "Switzerland"
+	},
+	{
+		"pais" : "Hungary"
+	},
+	{
+		"pais" : "United Kingdom"
+	},
+	{
+		"pais" : "Japan"
+	}
+]

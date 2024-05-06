@@ -1,8 +1,8 @@
-from project.app.repositories.reactor_repository import ReactorRelationalRepository
+from project.app.repositories.reactor_repository import ReactorNoRelationalRepository
 
 class ReactorService:
     def __init__(self):
-        self.repository = ReactorRelationalRepository()
+        self.repository = ReactorNoRelationalRepository()
 
     def get_all_reactors(self):
         return self.repository.get_all_reactors()
@@ -25,12 +25,15 @@ class ReactorService:
     def get_reactors_by_location(self, country: str, city: str):
         return self.repository.get_reactors_by_location(country, city)
     
+    # 3. Crear un nuevo reactor. #LISTO
     def create_reactor(self, reactor: dict):
         return self.repository.create_reactor(reactor)
     
-    def update_reactor(self, reactor: dict, reactor_id: int):
+    # 4. Actualizar un reactor existente. #LISTO
+    def update_reactor(self, reactor: dict, reactor_id: str):
         return self.repository.update_reactor(reactor, reactor_id)
     
-    def delete_reactor_by_id(self, reactor_id: int):
+    # 5. Eliminar un reactor existente. #LISTO
+    def delete_reactor_by_id(self, reactor_id: str):
         return self.repository.delete_reactor_by_id(reactor_id)
     

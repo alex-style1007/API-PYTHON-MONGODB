@@ -39,5 +39,8 @@ MANIFEST
 .idea/
 .vscode/
 .vs/
+
 #Pipenv
 Pipfile
+
+.env.local
