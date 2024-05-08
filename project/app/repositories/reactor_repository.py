@@ -173,12 +173,12 @@ class ReactorNoRelationalRepository:
     def get_full_reactor_document(self):
         reactors_collection = self.mongodb._get_collection('reactoresdb', 'reactores')
         full_reactors_documents = reactors_collection.aggregate([
-            {"$lookup": {"from": "tipos_reactor", "localField": "tipo_reactor_id", "foreignField": "_id", "as": "info_tipo_reactor"}},
+            {"$lookup": {"from": "tipos_reactor", "localField": "tipo_reactor_id", "foreignField": "_id", "as": "tipo_reactor"}},
             {"$lookup": {"from": "ubicaciones", "localField": "ubicacion_id", "foreignField": "_id", "as": "ubicacion"}},
-            {"$unwind": "info_tipo_reactor"},
+            {"$unwind": "tipo_reactor"}, # Deja solo lo de adentro (quitar [] y dejar solo {})
             {"$unwind": "ubicacion"},
-            {"$addFields": {"tipo_reactor": "$info_tipo_reactor.tipo", "pais": "$ubicacion.pais", "ciudad": "$ubicacion.ciudad"}},
-            {"$project": {"nombre": 1, "potencia_termica":1, "estado":1, "tipo_reactor":1, "pais":1, "ciudad":1  }}
+            {"$addFields": {"tipo": "$tipo_reactor.tipo", "pais": "$ubicacion.pais", "ciudad": "$ubicacion.ciudad"}},
+            {"$project": {"nombre": 1, "potencia_termica":1, "estado":1, "tipo":1, "pais":1, "ciudad":1}}
         ])
         return [document for document in full_reactors_documents]
 
