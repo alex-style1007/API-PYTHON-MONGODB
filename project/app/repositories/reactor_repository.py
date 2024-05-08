@@ -139,7 +139,12 @@ class ReactorNoRelationalRepository:
             {"$project": {"nombre": 1, "potencia_termica":1, "estado":1, "tipo":1, "pais":1, "ciudad":1}},
             {"$match": filter}
         ])
-        return [document for document in full_reactors_documents]
+        result = []
+        for document in full_reactors_documents:
+            document["id"] = str(document["_id"])
+            result.append(document)
+
+        return result
 
 
     def get_where_location_conditions(self, country: str, city: str):

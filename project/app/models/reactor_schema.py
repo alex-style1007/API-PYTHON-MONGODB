@@ -7,7 +7,7 @@ class ReactorResponseModel(BaseModel):
     id: int
     nombre: str
     potencia_termica: float
-    primera_fecha_reaccion: Union[datetime, None]
+    primera_fecha_reaccion: Union[str, None]
     tipo: Union[str, None]
     estado: str
     ciudad: Union[str, None]
@@ -24,7 +24,7 @@ class LocationResponseModel(BaseModel):
 class ReactorCreateModel(BaseModel):
     nombre: str
     potencia_termica: float
-    primera_fecha_reaccion: Union[datetime, None]
+    primera_fecha_reaccion: Union[str, None]
     tipo: Union[str, None]
     estado: str
     ciudad: Union[str, None]

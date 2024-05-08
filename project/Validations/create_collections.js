@@ -1,4 +1,7 @@
--- Crear Collection "tipos_reactor"
+use("reactoresdb");
+
+
+// Crear Collection "tipos_reactor"
 
 db.createCollection("tipos_reactor", {
    validator: {
@@ -16,14 +19,14 @@ db.createCollection("tipos_reactor", {
    }
 } );
 
--- Crear Collection "ubicaciones"
+// Crear Collection "ubicaciones"
 
 db.createCollection("ubicaciones", {
    validator: {
       $jsonSchema: {
          bsonType: "object",
          title: "Ubicaciones de los reactores",
-         required: [ "pais" ],
+         required: [ "pais", "ciudad"],
          properties: {
             ciudad: {
                bsonType: "string",
@@ -38,7 +41,7 @@ db.createCollection("ubicaciones", {
    }
 } );
 
--- Crear Collection "reactores"
+// Crear Collection "reactores"
 
 db.createCollection("reactores", {
    validator: {
