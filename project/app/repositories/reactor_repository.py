@@ -7,11 +7,11 @@ class ReactorNoRelationalRepository:
     def __init__(self):
         self.mongodb = MongoDB()
 
-    # 1. Obtener reactores registrados #LISTO
+    # 1. Obtener reactores registrados
     def get_all_reactors(self):
         return self.get_full_reactor_document({})
 
-    # 2. Obtener un reactor por Id #LISTO
+    # 2. Obtener un reactor por Id
     def get_reactor_by_id(self, id: str):
         result = self.get_full_reactor_document({"_id": ObjectId(id)})
 
@@ -26,7 +26,7 @@ class ReactorNoRelationalRepository:
         collection.insert_one(reactor_item)
         return {'message': 'El reactor ha sido insertado con éxito'}
     
-    # 4. Actualizar un reactor existente. #LISTO
+    # 4. Actualizar un reactor existente
     def update_reactor(self, reactor: dict, reactor_id: str):
         reactor_item = self.get_reactor_objectid_references(reactor)
         collection = self.mongodb._get_collection('reactoresdb', 'reactores')
@@ -37,7 +37,7 @@ class ReactorNoRelationalRepository:
         return {'message': f'el reactor con id {reactor_id} fue actualizado con éxito',
                 'reactor': {"id":reactor_id, **reactor}}
     
-    # 5. Eliminar un reactor existente. #LISTO
+    # 5. Eliminar un reactor existente
     def delete_reactor_by_id(self, id: str):
         collection = self.mongodb._get_collection('reactoresdb', 'reactores')
         reactor = collection.find_one({'_id': ObjectId(id)})
@@ -46,7 +46,7 @@ class ReactorNoRelationalRepository:
             return {'message': f'El reactor con id {id} fue eliminado con éxito'}
         return {'message': f'El reactor con id {id} no existe'}
     
-    # 6. Obtener tipos de reactores registrados #LISTO
+    # 6. Obtener tipos de reactores registrados
     def get_all_reactor_types(self):
         collection = self.mongodb._get_collection('reactoresdb', 'tipos_reactor')
         results = collection.find()
@@ -56,17 +56,17 @@ class ReactorNoRelationalRepository:
             response.append(item)
         return response
 
-    # 7. Obtener tipo de reactor por Id. Respuesta incluye todos los reactores asociados al tipo. #LISTO
+    # 7. Obtener tipo de reactor por Id. Respuesta incluye todos los reactores asociados al tipo.
     def get_reactors_with_same_reactor_type_by_id(self, reactor_id:str):
         result = self.get_reactor_by_id(reactor_id)
 
-        if result["message"] == f'El reactor con id {reactor_id} no existe':
+        if "message" in result:
             return result
         reactor_type = result["tipo"]
         reactors = self.get_full_reactor_document({"tipo": reactor_type})
         return reactors
     
-    # 8. Obtener Ubicaciones Registradas #LISTO
+    # 8. Obtener Ubicaciones Registradas
     def get_all_locations(self):
         collection = self.mongodb._get_collection('reactoresdb', 'ubicaciones')
         results = collection.find()
@@ -78,11 +78,11 @@ class ReactorNoRelationalRepository:
             response.append(item)
         return response
     
-    # 9. Obtener Ubicación por Id. #LISTO
+    # 9. Obtener Ubicación por Id
     def get_reactors_with_same_location_by_id(self, reactor_id: str):
         result = self.get_reactor_by_id(reactor_id)
 
-        if result["message"] == f'El reactor con id {reactor_id} no existe':
+        if "message" in result:
             return result
         
         conditions = {}
@@ -95,7 +95,7 @@ class ReactorNoRelationalRepository:
         return reactors
 
     
-    # 10. Obtener Reactores registrados por Ubicación #LISTO
+    # 10. Obtener Reactores registrados por Ubicación 
     def get_reactors_by_location(self, country: str, city: str):
         where_conditions = self.get_where_location_conditions(country, city)
         result = self.get_full_reactor_document(where_conditions)
@@ -133,10 +133,10 @@ class ReactorNoRelationalRepository:
         full_reactors_documents = reactors_collection.aggregate([
             {"$lookup": {"from": "tipos_reactor", "localField": "tipo_reactor_id", "foreignField": "_id", "as": "tipo_reactor"}},
             {"$lookup": {"from": "ubicaciones", "localField": "ubicacion_id", "foreignField": "_id", "as": "ubicacion"}},
-            {"$unwind": "tipo_reactor"}, # Deja solo lo de adentro (quitar [] y dejar solo {})
-            {"$unwind": "ubicacion"},
+            {"$unwind": "$tipo_reactor"}, # Deja solo lo de adentro (quitar [] y dejar solo {})
+            {"$unwind": "$ubicacion"},
             {"$addFields": {"tipo": "$tipo_reactor.tipo", "pais": "$ubicacion.pais", "ciudad": "$ubicacion.ciudad"}},
-            {"$project": {"nombre": 1, "potencia_termica":1, "estado":1, "tipo":1, "pais":1, "ciudad":1}},
+            {"$project": {"nombre": 1, "primera_fecha_reaccion":1, "potencia_termica":1, "estado":1, "tipo":1, "pais":1, "ciudad":1}},
             {"$match": filter}
         ])
         result = []

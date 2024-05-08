@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 class ReactorResponseModel(BaseModel):
-    id: int
+    id: str
     nombre: str
     potencia_termica: float
     primera_fecha_reaccion: Union[str, None]
@@ -14,7 +14,7 @@ class ReactorResponseModel(BaseModel):
     pais: str
 
 class ReactorTypeResponseModel(BaseModel):
-    id: int
+    id: str
     tipo: str
 
 class LocationResponseModel(BaseModel):
