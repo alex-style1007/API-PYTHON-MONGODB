@@ -3,7 +3,7 @@ from project.app.repositories.reactor_repository import ReactorNoRelationalRepos
 class ReactorService:
     def __init__(self):
         self.repository = ReactorNoRelationalRepository()
-        
+
     # 1. Obtener reactores registrados
     def get_all_reactors(self):
         return self.repository.get_all_reactors()
@@ -12,18 +12,22 @@ class ReactorService:
     def get_reactor_by_id(self, id: str):
         return self.repository.get_reactor_by_id(id)
     
+    # 6. Obtener tipos de reactores registrados
     def get_all_reactor_types(self):
         return self.repository.get_all_reactor_types()
 
+    # 8. Obtener Ubicaciones Registradas
     def get_all_locations(self):
         return self.repository.get_all_locations()
 
-    def get_reactors_with_same_reactor_type_by_id(self, reactor_id: int):
+    # 7. Obtener tipo de reactor por Id. Respuesta incluye todos los reactores asociados al tipo.
+    def get_reactors_with_same_reactor_type_by_id(self, reactor_id: str):
         return self.repository.get_reactors_with_same_reactor_type_by_id(reactor_id)
     
     def get_reactors_with_same_location_by_id(self, reactor_id:int):
         return self.repository.get_reactors_with_same_location_by_id(reactor_id)
     
+    # 10. Obtener Reactores registrados por Ubicación
     def get_reactors_by_location(self, country: str, city: str):
         return self.repository.get_reactors_by_location(country, city)
     

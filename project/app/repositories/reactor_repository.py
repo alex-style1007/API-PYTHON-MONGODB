@@ -56,29 +56,15 @@ class ReactorNoRelationalRepository:
             response.append(item)
         return response
 
-    # 7. Obtener tipo de reactor por Id. Respuesta incluye todos los reactores asociados al tipo.
-    def get_reactors_with_same_reactor_type_by_id(self, reactor_id:int):
-        reactor = self.session.query(TipoReactor.id).join(
-            Reactor, 
-            TipoReactor.id == Reactor.id_tipo_reactor,
-            isouter=True
-            ).filter(Reactor.id == reactor_id).first()
-        if reactor is None:
-            return {'message': f'El reactor con id {reactor_id} no existe'}
-        full_query = self.get_full_query()
-        results = full_query.filter(Reactor.id_tipo_reactor == reactor[0]).all()
-        response = []
-        for result in results:
-            response.append(
-                {
-                    **self.model_as_dict(result[0]),
-                    'estado': result[1],
-                    'ciudad': result[2],
-                    'pais': result[3],
-                    'tipo': result[4]
-                }
-            )
-        return response
+    # 7. Obtener tipo de reactor por Id. Respuesta incluye todos los reactores asociados al tipo. #LISTO
+    def get_reactors_with_same_reactor_type_by_id(self, reactor_id:str):
+        result = self.get_reactor_by_id(reactor_id)
+
+        if result["message"] == f'El reactor con id {reactor_id} no existe':
+            return result
+        reactor_type = result["tipo"]
+        reactors = self.get_full_reactor_document({"tipo": reactor_type})
+        return reactors
     
     # 8. Obtener Ubicaciones Registradas #LISTO
     def get_all_locations(self):
@@ -94,6 +80,19 @@ class ReactorNoRelationalRepository:
     
     # 9. Obtener Ubicación por Id.
     def get_reactors_with_same_location_by_id(self, reactor_id:int):
+        result = self.get_reactor_by_id(reactor_id)
+
+        if result["message"] == f'El reactor con id {reactor_id} no existe':
+            return result
+        reactor_type = result["tipo"]
+        reactors = self.get_full_reactor_document({"tipo": reactor_type})
+        return reactors
+
+
+
+
+
+
         reactor = self.session.query(Ubicacion.id).join(
             Reactor, 
             Ubicacion.id == Reactor.id_ubicacion,
