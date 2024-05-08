@@ -36,252 +36,24 @@ Esto se hace con el fin de mantener lo mayormente seguro el entorno de desarroll
 2. **Crear la Base de datos y a su vez las colecciones**
 
   1. coleccion ubicaciones
-
+  ![alt text](coleccionUbicaciones.jpg)
 
   2.  coleccion tipos
-
+  ![alt text](coleccionTipos.jpg)
 
   3. coleccion reactores
+  ![alt text](coleccionReactores.jpg)
 
 
 
+## Conexion usando MongoDB y Visual
 
-
-## Conexion usando MongoDB Compass
-
-Para conectarse localmente, seleccionamos la opcion Compass que se habilita al dar click en la opcion Conectar. 
-Despues de modificar el string proporcionado con el **admin** y **pasword** habilitados se ve de la siguiente manera al conectarse.
-  ![alt text](Compass.png)
+Se usa la extensión en visual studio code llamada MongoDB for VS code
+![alt text](mongodbVisual.png)
 
 # Creacion de la coleccion y validaciones
 
-En este apartado se dara el codigo para replicar lo deseado
-
-```java
-// Conexión a MongoDB
-use Reactores_bd
-
-// Crear las colecciones correspondientes
-db.createCollection("estados")
-db.createCollection("paises")
-db.createCollection("ubicacion")
-db.createCollection("tipos_reactor")
-db.createCollection("reactores")
-
-```
-Ahora para realizar las validaciones
-
-1. **estados**
-
-```java
-{
-    "$jsonSchema": {
-      "bsonType": "object",
-      "required": ["_id", "estados"],
-      "properties": {
-        "_id": {
-          "bsonType": "objectId",
-          "description": "Identificador único del documento"
-        },
-        "estados": {
-          "bsonType": "array",
-          "minItems": 1,
-          "items": {
-            "bsonType": "object",
-            "required": ["id", "estado"],
-            "properties": {
-              "id": {
-                "bsonType": "int",
-                "description": "ID del estado"
-              },
-              "estado": {
-                "bsonType": "string",
-                "description": "Descripción del estado"
-              }
-            }
-          },
-          "uniqueItems": true
-        }
-      }
-    }
-  }
-  
-```
-2. **paises**
-
-```java
-{
-    "$jsonSchema": {
-      "bsonType": "object",
-      "required": ["_id", "paises"],
-      "properties": {
-        "_id": {
-          "bsonType": "objectId",
-          "description": "Identificador único del documento"
-        },
-        "paises": {
-          "bsonType": "array",
-          "minItems": 1,
-          "uniqueItems": true,
-          "items": {
-            "bsonType": "object",
-            "required": ["id", "pais"],
-            "properties": {
-              "id": {
-                "bsonType": "int",
-                "description": "ID del país"
-              },
-              "pais": {
-                "bsonType": "string",
-                "description": "Nombre del país"
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  
-```
-3. **reactores**
-
-```java
-{
-    "$jsonSchema": {
-      "bsonType": "object",
-      "required": ["_id", "reactores"],
-      "properties": {
-        "_id": {
-          "bsonType": "objectId",
-          "description": "Identificador único del documento"
-        },
-        "reactores": {
-          "bsonType": "array",
-          "minItems": 1,
-          "items": {
-            "bsonType": "object",
-            "required": ["id", "nombre", "potencia_termica", "primera_fecha_reaccion", "id_tipo_reactor", "id_ubicacion", "id_estado"],
-            "properties": {
-              "id": {
-                "bsonType": "int",
-                "description": "ID del reactor"
-              },
-              "nombre": {
-                "bsonType": "string",
-                "description": "Nombre del reactor"
-              },
-              "potencia_termica": {
-                "bsonType": "int",
-                "minimum": 0,
-                "description": "Potencia térmica del reactor"
-              },
-              "primera_fecha_reaccion": {
-                "bsonType": "date",
-                "description": "Fecha de la primera reacción del reactor"
-              },
-              "id_tipo_reactor": {
-                "bsonType": "int",
-                "description": "ID del tipo de reactor"
-              },
-              "id_ubicacion": {
-                "bsonType": "int",
-                "description": "ID de la ubicación del reactor"
-              },
-              "id_estado": {
-                "bsonType": "int",
-                "description": "ID del estado del reactor"
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-
-
-```
-4. **tipos_reactor**
-
-```java
-{
-    "$jsonSchema": {
-      "bsonType": "object",
-      "required": ["_id", "tipos_reactor"],
-      "properties": {
-        "_id": {
-          "bsonType": "objectId",
-          "description": "Identificador único del documento"
-        },
-        "tipos_reactor": {
-          "bsonType": "array",
-          "minItems": 1,
-          "uniqueItems": true,
-          "items": {
-            "bsonType": "object",
-            "required": ["id", "tipo"],
-            "properties": {
-              "id": {
-                "bsonType": "int",
-                "description": "ID del tipo de reactor"
-              },
-              "tipo": {
-                "bsonType": "string",
-                "description": "Nombre del tipo de reactor"
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  
-```
-5. **Ubicacion**
-
-```java
-{
-    "$jsonSchema": {
-      "bsonType": "object",
-      "required": [
-        "_id",
-        "ubicacion"
-      ],
-      "properties": {
-        "_id": {
-          "bsonType": "objectId",
-          "description": "Identificador único para el documento"
-        },
-        "ubicacion": {
-          "bsonType": "array",
-          "minItems": 1,
-          "items": {
-            "bsonType": "object",
-            "required": [
-              "id",
-              "ciudad",
-              "id_pais"
-            ],
-            "properties": {
-              "id": {
-                "bsonType": "int",
-                "description": "ID de la ubicación"
-              },
-              "ciudad": {
-                "bsonType": "string",
-                "description": "Nombre de la ciudad"
-              },
-              "id_pais": {
-                "bsonType": "int",
-                "description": "ID del país"
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  
-```
+El script para la creación de las colecciones y los esquemas de validaciones se encuentran en la ruta project/Validations
 
 
 # Ejecucion PY
@@ -296,10 +68,17 @@ Tener en cuenta la instalación de python y sus complementos
 
   ```python
 
+pip install fastapi pydantic pymongo[srv] uvicorn
+
   ```
   
 3. Ejecutar la app:
 
+```python
+
+uvicorn project.app.controllers.reactor_controller:app
+
+```
 
 # Resultados
-Se deja el archivo de word "Evidencias de los resultados.docx" el cual se puedes descargar y evidenciar capturas de los resultados
+Se deja el archivo de word "PruebasResultadosEndpoints.docx" el cual se puedes descargar y evidenciar capturas de los resultados
