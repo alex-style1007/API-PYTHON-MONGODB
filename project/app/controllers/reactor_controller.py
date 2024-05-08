@@ -60,7 +60,7 @@ async def get_reactors_by_location(country: str = Query(default=None), city: str
         status_code=status.HTTP_200_OK,
         response_model=Union[List[ReactorResponseModel], NotExistingReactorId],
 )
-async def get_reactors_with_same_location_by_id(id: int):
+async def get_reactors_with_same_location_by_id(id: str):
     return ReactorService().get_reactors_with_same_location_by_id(id)
 
 # 2. Obtener un reactor por Id. #TALVES

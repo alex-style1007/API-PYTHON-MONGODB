@@ -24,7 +24,8 @@ class ReactorService:
     def get_reactors_with_same_reactor_type_by_id(self, reactor_id: str):
         return self.repository.get_reactors_with_same_reactor_type_by_id(reactor_id)
     
-    def get_reactors_with_same_location_by_id(self, reactor_id:int):
+    # 9. Obtener Ubicación por Id
+    def get_reactors_with_same_location_by_id(self, reactor_id: str):
         return self.repository.get_reactors_with_same_location_by_id(reactor_id)
     
     # 10. Obtener Reactores registrados por Ubicación

@@ -78,42 +78,22 @@ class ReactorNoRelationalRepository:
             response.append(item)
         return response
     
-    # 9. Obtener Ubicación por Id.
-    def get_reactors_with_same_location_by_id(self, reactor_id:int):
+    # 9. Obtener Ubicación por Id. #LISTO
+    def get_reactors_with_same_location_by_id(self, reactor_id: str):
         result = self.get_reactor_by_id(reactor_id)
 
         if result["message"] == f'El reactor con id {reactor_id} no existe':
             return result
-        reactor_type = result["tipo"]
-        reactors = self.get_full_reactor_document({"tipo": reactor_type})
+        
+        conditions = {}
+        if "ciudad" in result:
+            conditions["ciudad"] = result["ciudad"]
+        if "pais" in result:
+            conditions['pais'] = result['pais']
+
+        reactors = self.get_full_reactor_document(conditions)
         return reactors
 
-
-
-
-
-
-        reactor = self.session.query(Ubicacion.id).join(
-            Reactor, 
-            Ubicacion.id == Reactor.id_ubicacion,
-            isouter=True
-            ).filter(Reactor.id == reactor_id).first()
-        if reactor is None:
-            return {'message': f'El reactor con id {reactor_id} no existe'}
-        full_query = self.get_full_query()
-        results = full_query.filter(Reactor.id_ubicacion == reactor[0]).all()
-        response = []
-        for result in results:
-            response.append(
-                {
-                    **self.model_as_dict(result[0]),
-                    'estado': result[1],
-                    'ciudad': result[2],
-                    'pais': result[3],
-                    'tipo': result[4]
-                }
-            )
-        return response
     
     # 10. Obtener Reactores registrados por Ubicación #LISTO
     def get_reactors_by_location(self, country: str, city: str):
