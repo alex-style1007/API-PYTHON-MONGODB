@@ -7,23 +7,9 @@ class ReactorNoRelationalRepository:
     def __init__(self):
         self.mongodb = MongoDB()
 
-    # 1. Obtener reactores registrados
+    # 1. Obtener reactores registrados #LISTO
     def get_all_reactors(self):
-        full_query = self.get_full_query()
-        results = full_query.all()
-        response = []
-        for result in results:
-            reactor = self.model_as_dict(result[0])
-            response.append(
-                {
-                    **reactor,
-                    'estado': result[1],
-                    'ciudad': result[2],
-                    'pais': result[3],
-                    'tipo': result[4]
-                }
-            )
-        return response
+        return self.get_full_reactor_document()
 
     # 2. Obtener un reactor por Id
     def get_reactor_by_id(self, id: int):
@@ -184,15 +170,20 @@ class ReactorNoRelationalRepository:
         return reactor_item
     
 
-    def get_full_query(self):
-        return self.session.query(Reactor, Estado.estado, Ubicacion.ciudad, Pais.pais, TipoReactor.tipo).join(
-            Estado, Reactor.id_estado == Estado.id, isouter=True).join(
-                TipoReactor, Reactor.id_tipo_reactor == TipoReactor.id, isouter=True
-            ).join(
-                Ubicacion, Reactor.id_ubicacion == Ubicacion.id, isouter=True
-            ).join(
-                Pais, Ubicacion.id_pais == Pais.id, isouter=True
-            )
+    def get_full_reactor_document(self):
+        reactors_collection = self.mongodb._get_collection('reactoresdb', 'reactores')
+        full_reactors_documents = reactors_collection.aggregate([
+            {"$lookup": {"from": "tipos_reactor", "localField": "tipo_reactor_id", "foreignField": "_id", "as": "info_tipo_reactor"}},
+            {"$lookup": {"from": "ubicaciones", "localField": "ubicacion_id", "foreignField": "_id", "as": "ubicacion"}},
+            {"$unwind": "info_tipo_reactor"},
+            {"$unwind": "ubicacion"},
+            {"$addFields": {"tipo_reactor": "$info_tipo_reactor.tipo", "pais": "$ubicacion.pais", "ciudad": "$ubicacion.ciudad"}},
+            {"$project": {"nombre": 1, "potencia_termica":1, "estado":1, "tipo_reactor":1, "pais":1, "ciudad":1  }}
+        ])
+        return [document for document in full_reactors_documents]
+
+    
+
 
     def get_where_location_conditions(self, country: str, city: str):
         where_conditions = []
