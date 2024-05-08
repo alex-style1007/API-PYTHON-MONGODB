@@ -35,13 +35,13 @@ Esto se hace con el fin de mantener lo mayormente seguro el entorno de desarroll
 
 2. **Crear la Base de datos y a su vez las colecciones**
 
-  1. coleccion ubicaciones
+  a. coleccion ubicaciones
   ![alt text](coleccionUbicaciones.jpg)
 
-  2.  coleccion tipos
+  b.  coleccion tipos
   ![alt text](coleccionTipos.jpg)
 
-  3. coleccion reactores
+  c. coleccion reactores
   ![alt text](coleccionReactores.jpg)
 
 
