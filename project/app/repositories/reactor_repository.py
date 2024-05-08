@@ -116,27 +116,12 @@ class ReactorNoRelationalRepository:
             )
         return response
     
-    # 10. Obtener Reactores registrados por Ubicación
+    # 10. Obtener Reactores registrados por Ubicación #LISTO
     def get_reactors_by_location(self, country: str, city: str):
         where_conditions = self.get_where_location_conditions(country, city)
+        result = self.get_full_reactor_document(where_conditions)
+        return result
 
-        if len(where_conditions) > 0:
-            full_query = self.get_full_query()
-            results = full_query.filter(*where_conditions).all()
-            response = []
-            for result in results:
-                response.append(
-                    {
-                        **self.model_as_dict(result[0]),
-                        'estado': result[1],
-                        'ciudad': result[2],
-                        'pais': result[3],
-                        'tipo': result[4]
-                    }
-                )
-            return response
-        return self.get_all_reactors()
-    
 
     # Funciones Auxiliares
     def get_reactor_objectid_references(self, reactor: dict):
@@ -177,19 +162,13 @@ class ReactorNoRelationalRepository:
         ])
         return [document for document in full_reactors_documents]
 
-    
-
 
     def get_where_location_conditions(self, country: str, city: str):
-        where_conditions = []
+        where_conditions = {}
         if country:
-            where_conditions.append(
-                Pais.pais == country
-            )
+            where_conditions["pais"] = country
         if city:
-            where_conditions.append(
-                Ubicacion.ciudad == city
-            )
+            where_conditions["ciudad"] = city
         return where_conditions
     
 
