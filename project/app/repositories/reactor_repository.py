@@ -9,20 +9,14 @@ class ReactorNoRelationalRepository:
 
     # 1. Obtener reactores registrados #LISTO
     def get_all_reactors(self):
-        return self.get_full_reactor_document()
+        return self.get_full_reactor_document({})
 
-    # 2. Obtener un reactor por Id
-    def get_reactor_by_id(self, id: int):
-        full_query = self.get_full_query()
-        result = full_query.filter(Reactor.id == id).first()
-        if result is not None:
-            return {
-                **self.model_as_dict(result[0]),
-                'estado': result[1],
-                'ciudad': result[2],
-                'pais': result[3],
-                'tipo': result[4]
-            }
+    # 2. Obtener un reactor por Id #LISTO
+    def get_reactor_by_id(self, id: str):
+        result = self.get_full_reactor_document({"_id": ObjectId(id)})
+
+        if len(result) > 0:
+            return result[0]
         return {'message': f'El reactor con id {id} no existe'}
 
     # 3. Crear un nuevo reactor. #LISTO

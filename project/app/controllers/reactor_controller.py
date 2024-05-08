@@ -69,7 +69,7 @@ async def get_reactors_with_same_location_by_id(id: int):
         status_code=status.HTTP_200_OK,
         response_model=Union[ReactorResponseModel, NotExistingReactorId]
 )
-async def get_reactor_by_id(id: int):
+async def get_reactor_by_id(id: str):
     return ReactorService().get_reactor_by_id(id)
 
 # 3. Crear un nuevo reactor. #LISTO

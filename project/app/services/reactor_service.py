@@ -3,11 +3,13 @@ from project.app.repositories.reactor_repository import ReactorNoRelationalRepos
 class ReactorService:
     def __init__(self):
         self.repository = ReactorNoRelationalRepository()
-
+        
+    # 1. Obtener reactores registrados
     def get_all_reactors(self):
         return self.repository.get_all_reactors()
-    
-    def get_reactor_by_id(self, id: int):
+
+    # 2. Obtener un reactor por Id
+    def get_reactor_by_id(self, id: str):
         return self.repository.get_reactor_by_id(id)
     
     def get_all_reactor_types(self):
